@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Helmet } from 'react-helmet';
 const discord = require('./icons/discord.png')
 const youtube = require('./icons/youtube.png')
 const github = require('./icons/github.png')
@@ -7,8 +8,8 @@ const java = require('./icons/java.png')
 const c = require('./icons/c.png')
 const mongodb = require('./icons/mongodb.png')
 const sql = require('./icons/sql.png')
-
 class Counter extends Component { 
+
     state={
         style:{
             
@@ -16,11 +17,14 @@ class Counter extends Component {
         }
     }
     render() { 
+
         return (
-            <html>
-            <body>
-            <div>
-                <h1 className='font-sans lg:text-4xl sm:text-red-600 sm:text-xs text-red-600 md:text-4xl text-center underline md:text-red-600 lg:text-red-600 font-bold'>Immortal's Website</h1>
+            <div className='bg-[url(./components/icons/background.png)] bg-no-repeat w-screen h-screen bg-cover'>
+                <Helmet>
+                    <title>Immortal's Website</title>
+                </Helmet>
+                
+                <h1 className='font-sans lg:text-4xl sm:text-red-600 sm:text-xs text-red-600 md:text-4xl text-center underline md:text-red-600 lg:text-red-600 font-bold mb-4'>Immortal's Website</h1>
                 <p className='md:text-2xl font-bold lg:text-2xl  sm:text-xs text-center'>Hello, I am immortal. I am an aspiring coder who programs in Python, Java, C++, and works with databases such as MongoDB and SQL. I love helping other people with their programs
                     and even teach them coding. I will be happy to help you with your code too. Just reach out to me on any of my social media accounts.
                 </p>
@@ -44,10 +48,9 @@ class Counter extends Component {
                     <li className='lg:text-2xl font-bold text-green-400 sm:text-xs md:text-1xl'>I have good knowledge about databases.</li>
                 </ol>
             </div>
-            </body>
-        </html>
         );
     }
+    
 }
  
 export default Counter;

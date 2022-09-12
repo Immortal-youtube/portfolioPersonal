@@ -2,7 +2,14 @@
 module.exports = {
   content: ['./src/components/*.jsx'],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage:{
+        'cool-background':'url(.components/icons/background.png)'
+      }
+    },
+  },
+  daisyui: {
+    themes: ["dracula"],
   },
   plugins: [require('daisyui')],
 }
