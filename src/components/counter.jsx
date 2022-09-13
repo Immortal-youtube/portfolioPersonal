@@ -29,14 +29,14 @@ class Counter extends Component {
                     and even teach them coding. I will be happy to help you with your code too. Just reach out to me on any of my social media accounts.
                 </p>
                 <ul className=' justify-center align-middle lg:flex sm:flex-wrap flex-wrap md:flex space-x-8 mt-4 mb-4 xl:flex 2xl:flex'>
-                    <a class = "tooltip tooltip-bottom mr-3 ml-3" data-tip="Join the discord server" href="https://discord.gg/gqp5nMzwTY" target="__blank" ><img src={discord} alt="notLoading"></img></a>
-                    <a class = "tooltip tooltip-bottom mr-3 ml-3" data-tip="Subscribe!" href="https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw" target="__blank" ><img src={youtube} alt="notLoading"></img></a>
-                    <a class = "tooltip tooltip-bottom mr-3 ml-3" data-tip="Follow me and my projects" href="https://github.com/Immortal-youtube" target="__blank" ><img src={github} alt="notLoading"></img></a>
-                    <a class = "tooltip tooltip-bottom mr-3 ml-3" data-tip="Download Python" href="https://www.python.org/" target="__blank" ><img src={python} alt="notLoading"></img></a>
-                    <a class = "tooltip tooltip-bottom mr-3 ml-3" data-tip="Download Java" href="https://www.java.com/en/" target="__blank" ><img src={java} alt="notLoading"></img></a>
-                    <a class = "tooltip tooltip-bottom mr-3 ml-3" data-tip="Checkout C++" href="https://isocpp.org" target="__blank" ><img src={c} alt="notLoading"></img></a>
-                    <a class = "tooltip tooltip-bottom mr-3 ml-3" data-tip="Checkout MongoDB" href="https://www.mongodb.com" target="__blank" ><img src={mongodb} alt="notLoading"></img></a>
-                    <a class = "tooltip tooltip-bottom mr-3 ml-3" data-tip="Checkout MySQL" href="https://www.mysql.com" target="__blank" ><img src={sql} alt="notLoading"></img></a> 
+                    <a class = "tooltip tooltip-bottom" data-tip="Join the discord server" href="https://discord.gg/gqp5nMzwTY" target="__blank" ><img src={discord} alt="notLoading"></img></a>
+                    <a class = "tooltip tooltip-bottom" data-tip="Subscribe!" href="https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw" target="__blank" ><img src={youtube} alt="notLoading"></img></a>
+                    <a class = "tooltip tooltip-bottom" data-tip="Follow me and my projects" href="https://github.com/Immortal-youtube" target="__blank" ><img src={github} alt="notLoading"></img></a>
+                    <a class = "tooltip tooltip-bottom" data-tip="Download Python" href="https://www.python.org/" target="__blank" ><img src={python} alt="notLoading"></img></a>
+                    <a class = "tooltip tooltip-bottom" data-tip="Download Java" href="https://www.java.com/en/" target="__blank" ><img src={java} alt="notLoading"></img></a>
+                    <a class = "tooltip tooltip-bottom" data-tip="Checkout C++" href="https://isocpp.org" target="__blank" ><img src={c} alt="notLoading"></img></a>
+                    <a class = "tooltip tooltip-bottom" data-tip="Checkout MongoDB" href="https://www.mongodb.com" target="__blank" ><img src={mongodb} alt="notLoading"></img></a>
+                    <a class = "tooltip tooltip-bottom" data-tip="Checkout MySQL" href="https://www.mysql.com" target="__blank" ><img src={sql} alt="notLoading"></img></a> 
                 </ul>
                 <h2 className='text-red-600  lg:text-3xl md:text-1xl font-bold sm:text-xs'>My Achievements: </h2>
                 <ol className='ml-3'>
