@@ -21,10 +21,10 @@ class Counter extends Component {
         return (
             <div className='bg-[url(./components/icons/background.png)] bg-no-repeat w-screen h-screen bg-cover'>
                 <Helmet>
-                    <title>Immortal's Website</title>
+                    <title>Immortal</title>
                 </Helmet>
                 
-                <h1 className='font-sans lg:text-4xl sm:text-red-600 sm:text-xs text-red-600 md:text-4xl text-center underline md:text-red-600 lg:text-red-600 font-bold mb-4'>Immortal's Website</h1>
+                <h1 className='font-sans lg:text-4xl sm:text-red-600 sm:text-xs text-red-600 md:text-4xl text-center underline md:text-red-600 lg:text-red-600 font-bold mb-4'>Immortal</h1>
                 <p className='md:text-2xl font-bold lg:text-2xl  sm:text-xs text-center'>Hello, I am immortal. I am an aspiring coder who programs in Python, Java, C++, and works with databases such as MongoDB and SQL. I love helping other people with their programs
                     and even teach them coding. I will be happy to help you with your code too. Just reach out to me on any of my social media accounts.
                 </p>
