@@ -26,7 +26,7 @@ class Counter extends Component {
                 </Helmet>
                 
                 <h1 className='font-suk text-emerald-300 text-6xl text-center'>Hey there I'm Ansh</h1>
-                <p className= 'font-par text-'>I am a full stack developer.I have made many minecraft plugins,Discord Bots, Arduino Projects,Websites,etc.
+                <p className= 'font-par text-center'>I am a full stack developer.I have made many minecraft plugins,Discord Bots, Arduino Projects,Websites,etc.
                     <br/>My main languages are Python,Java and I have worked with MongoDB,SQL,etc.
                 </p>
                 
