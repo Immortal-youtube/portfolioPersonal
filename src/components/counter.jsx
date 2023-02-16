@@ -1,14 +1,14 @@
 import React, { Component } from 'react';
-import { useState } from 'react';
+//import { useState } from 'react';
 import { Helmet } from 'react-helmet';
-const discord = require('./icons/discord.png')
-const youtube = require('./icons/youtube.png')
-const github = require('./icons/github.png')
-const python = require('./icons/python.png')
-const java = require('./icons/java.png')
-const c = require('./icons/c.png')
-const mongodb = require('./icons/mongodb.png')
-const sql = require('./icons/sql.png')
+//const discord = require('./icons/discord.png')
+//const youtube = require('./icons/youtube.png')
+//const github = require('./icons/github.png')
+//const python = require('./icons/python.png')
+//const java = require('./icons/java.png')
+//const c = require('./icons/c.png')
+//const mongodb = require('./icons/mongodb.png')
+//const sql = require('./icons/sql.png')
 class Counter extends Component { 
 
     state={
