@@ -38,8 +38,12 @@ class Counter extends Component {
                     <a className = 'tooltip tooltip-bottom' data-tip='Checkout C++!' href='https://en.wikipedia.org/wiki/C%2B%2B' target='_blank' rel="noreferrer"><img src={c} alt='discord' className='w-20 h-20 m-3'/></a>
                     <a className = 'tooltip tooltip-bottom' data-tip='Download MySQl!' href='https://www.mysql.com' target='_blank' rel="noreferrer"><img src={sql} alt='discord' className='w-20 h-20 m-3'/></a>
                     <a className = 'tooltip tooltip-bottom' data-tip='Checkout MongoDB!' href='https://www.mongodb.com' target='_blank' rel="noreferrer"><img src={mongodb} alt='discord' className='w-20 h-20 m-3'/></a>
-                    
                 </div>
+                <h2 className='font-par flex-auto px-5'>On going Projects:
+                    <br/> - Computer Vision based Cube Solver(Kociemba's Algorithm)
+                    <br/> - Updating Discord bot  
+                    <br/> - Voice Assistant using ChatGPT
+                </h2>
                 
             </div>
         );
