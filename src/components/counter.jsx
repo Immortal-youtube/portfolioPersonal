@@ -1,5 +1,6 @@
 //import React, { Component } from 'react';
 //import { useState } from 'react';
+
 import { Helmet } from 'react-helmet';
 const discord = require('./icons/discord.png')
 const youtube = require('./icons/youtube.png')
@@ -12,15 +13,13 @@ const sql = require('./icons/sql.png')
 
 
 
-
 function Counter() { 
-        let question = ""
+        let question = "skill issue"
         function update(){
-            question = document.getElementById('question').value
+            question = document.getElementById('questions').value
         }
         function enter(){
             console.log(question)
-            
         }
         return (
             <div className='bg-noob bg-no-repeat w-screen h-screen bg-cover'>
@@ -54,6 +53,7 @@ function Counter() {
                 
             </div>
         );
+        
     
 }
  
