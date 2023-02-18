@@ -20,7 +20,6 @@ function Counter() {
                 <Helmet>
                     <title>Immortal</title>
                 </Helmet>
-                
                 <h1 className='font-suk text-emerald-300 text-6xl text-center '>Hey there, I'm Ansh!</h1>
                 <p className= 'font-par text-center py-5'>I am a <h3 className='inline text-emerald-600'>full stack developer</h3>.I have made many minecraft plugins,Discord Bots, Arduino Projects,Websites,etc.
                     <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
@@ -41,7 +40,7 @@ function Counter() {
                     <br/> <FontAwesomeIcon icon={faCode} /> Voice Assistant using ChatGPT
                 </h2>
                 <h2 className='font-par flex-auto pt-5 px-5'>
-                    You can connect with me on Discord or on :<br/> <h2 className='text-emerald-300'>immortal.gaming0808@gmail.com</h2>
+                    You can connect with me on Discord or mail me on:<br/> <h2 className='text-emerald-300'>immortal.gaming0808@gmail.com</h2>
                 </h2>
             </div>
         );
