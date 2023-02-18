@@ -3,13 +3,13 @@ const { MongoClient } = require("mongodb");
 const app = express();
 const cors = require("cors");
 require("dotenv").config({ path: "./config.env" });
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 app.use(cors());
 app.use(express.json());
 
 const db = require("./db");
 
-app.get("/", (req, res) => {  
+app.get("/compilation", (req, res) => {  
     db.useDb("Questions").collection("questions").insertOne({name: "ansh"});
 });
 

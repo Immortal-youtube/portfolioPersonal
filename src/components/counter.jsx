@@ -12,14 +12,17 @@ const mongodb = require('./icons/mongodb.png')
 const sql = require('./icons/sql.png')
 
 
-
 function Counter() { 
         let question = "skill issue"
         function update(){
             question = document.getElementById('questions').value
+            
         }
         function enter(){
+            document.getElementById('questions').value = ""      
             console.log(question)
+            
+            
         }
         return (
             <div className='bg-noob bg-no-repeat w-screen h-screen bg-cover'>
@@ -48,7 +51,7 @@ function Counter() {
                 </h2>
                 <div className="text-center">
                     <input id='questions' type = "text" className='bg-transparent border-2 rounded-xl border-emerald-300 text-emerald-300 text-center w-1/2 mx-auto mt-6' onChange={update} placeholder='Ask me any question you want to ask'/>
-                    <button onClick={enter} className='bg-emerald-300 text-black font-bold py-2 px-4 rounded-full mx-auto my-2 block'>Send</button>
+                    <button onClick={enter} className='bg-emerald-300 text-black font-bold py-2 px-4 rounded-full mx-auto my-2 block hover:bg-emerald-700'>Send</button>
                 </div>
                 
             </div>
