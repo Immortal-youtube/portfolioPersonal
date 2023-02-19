@@ -1,12 +1,13 @@
 //import React, { Component } from 'react';
 //import { useState } from 'react';
-
+import Navbar from './navbar';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 const discord = require('./icons/discord.png')
 const youtube = require('./icons/youtube.png')
 const github = require('./icons/github.png')
+
 
 
 
@@ -25,9 +26,9 @@ function Counter() {
                 <Helmet>
                     <title>Immortal</title>
                 </Helmet>
-                
+                <Navbar />
                 <h1 className='font-suk text-emerald-300 text-6xl text-center'>Hey there!, I'm Ansh</h1>
-                <p className= 'font-par text-center text-white py-5'>I am a <h3 className='inline text-emerald-600'>full stack developer</h3>.I have made many minecraft plugins,Discord Bots, Arduino Projects,Websites,etc.
+                <p className= 'font-par text-center text-white py-5'>I am a <h3 className='inline text-emerald-600'>full stack developer</h3>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
                     <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
                 </p>
                 <div className='text-center my-9'>
@@ -44,6 +45,7 @@ function Counter() {
                     Connect with me on Discord or mail me at:<br/> <h2 className='text-emerald-300'>immortal.gaming0808@gmail.com</h2>
                 </h2>
             </html>
+            
         );
         
     
