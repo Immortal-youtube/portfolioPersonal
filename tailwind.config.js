@@ -4,6 +4,19 @@ module.exports = {
 
   content: ['./src/components/*.jsx'],
   theme: {
+    screens: {
+      'tablet': '640px',
+      // => @media (min-width: 640px) { ... }
+
+      'laptop': '1024px',
+      // => @media (min-width: 1024px) { ... }
+
+      'desktop': '1280px',
+      // => @media (min-width: 1280px) { ... }
+    },
+    hover: {
+      improved: 'hover:shadow hover:animate-bounce'
+    },
     fontFamily: {
       suk : ['Tourney', 'sans-serif'],
       par : ['Orbitron', 'sans-serif'],
@@ -14,9 +27,16 @@ module.exports = {
         'noob': 'url(https://wallpaperaccess.com/full/1567665.png)'
       }
     },
-  },
-  daisyui: {
-    themes: ["dracula"],
+    daisyui: {
+      styled: true,
+      themes: false,
+      base: true,
+      utils: true,
+      logs: true,
+      rtl: false,
+      prefix: "",
+      darkTheme: "dark",
+    }
   },
   plugins: [require('daisyui')],
 }
