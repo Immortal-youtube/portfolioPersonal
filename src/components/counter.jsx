@@ -7,11 +7,6 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 const discord = require('./icons/discord.png')
 const youtube = require('./icons/youtube.png')
 const github = require('./icons/github.png')
-const python = require('./icons/python.png')
-const java = require('./icons/java.png')
-const c = require('./icons/c.png')
-const mongodb = require('./icons/mongodb.png')
-const sql = require('./icons/sql.png')
 
 
 
