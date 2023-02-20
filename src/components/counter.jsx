@@ -14,13 +14,8 @@ const github = require('./icons/github.png')
 function Counter() { 
     let str=""
     console.log(window.innerHeight)
-    if(window.innerHeight < 820){
-        if(window.innerWidth < 700){
-            str = "bg-noob w-full h-full bg-cover bg-no-repeat"
-        }else{
-            str="bg-noob w-screen h-screen bg-cover"
-        }    
-        
+    if(window.innerHeight < 820){   
+        str="bg-noob w-full h-full bg-cover"
     }else{
         str="bg-noob w-screen h-screen bg-cover"
     }
