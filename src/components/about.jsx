@@ -5,8 +5,13 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 export default function About(){
     let str=""
     console.log(window.innerHeight)
-    if(window.innerHeight < 800){
-        str = "bg-noob w-full h-full bg-cover bg-no-repeat"
+    if(window.innerHeight < 900){
+        if(window.innerWidth < 600){
+            str = "bg-noob w-full h-full bg-cover bg-no-repeat"
+        }else{
+            str="bg-noob w-screen h-screen bg-cover"
+        }    
+        
     }else{
         str="bg-noob w-screen h-screen bg-cover"
     }
