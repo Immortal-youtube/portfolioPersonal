@@ -15,7 +15,7 @@ export default function About(){
     // }else{
     //     str=" w-screen h-screen bg-cover"
     // }
-    if (window.innerHeight < 670 && window.outerWidth < 1000) {
+    if (window.innerHeight < 880 && window.outerWidth < 1000) {
         str = "bg-noob w-full h-full bg-cover"
     } else {
         str = "bg-noob w-screen h-screen bg-cover"
