@@ -3,6 +3,7 @@ import './App.css';
 import { Routes, Route} from 'react-router-dom';
 import Counter from './components/counter';
 import About from './components/about';
+
 import "./components/icons/font"
 
 function App() {

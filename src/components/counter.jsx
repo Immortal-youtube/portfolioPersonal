@@ -12,18 +12,31 @@ const github = require('./icons/github.png')
 
 
 function Counter() { 
-    let str=""
-    console.log(window.innerHeight)
-    if(window.innerHeight < 750){
-        str="bg-noob w-full h-full bg-cover"
-        
-    }else{
-        str="bg-noob w-screen h-screen bg-cover"
-    }
+        let str=""
+    // console.log(window.outerHeight)
+    // console.log(window.innerWidth)
+    // if(window.innerHeight < 670){
+    //     str=" w-full h-full bg-cover"
+    //     if(window.innerWidth < 300){
+    //         str=" w-screen h-screen bg-cover"
+    //     }else{
+    //         str=" w-full h-full bg-cover"
+    //     }
+    // }else{
+    //     str=" w-screen h-screen bg-cover"
+    // }
+        console.log(window.innerHeight)
+        if (window.innerHeight < 670 && window.outerWidth < 1000) {
+            str = "bg-noob w-full h-full bg-cover"
+        } else {
+            str = "bg-noob w-screen h-screen bg-cover"
+        }
+
+    
 
         return (
             
-            <html className={str} id="main">
+            <html className={str} id="main" data-theme="night">
                 <Helmet>
                     <title>Immortal</title>
                 </Helmet>

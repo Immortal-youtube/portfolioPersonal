@@ -4,19 +4,24 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 
 export default function About(){
     let str=""
-    console.log(window.innerHeight)
-    if(window.innerHeight < 900){
-        if(window.innerWidth < 600){
-            str = "bg-noob w-full h-full bg-cover bg-no-repeat"
-        }else{
-            str="bg-noob w-screen h-screen bg-cover"
-        }    
+    // console.log(window.innerHeight)
+    // if(window.innerHeight < 900){
+    //     if(window.innerWidth < 600){
+    //         str = " w-full h-full bg-cover bg-no-repeat"
+    //     }else{
+    //         str=" w-screen h-screen bg-cover"
+    //     }    
         
-    }else{
-        str="bg-noob w-screen h-screen bg-cover"
+    // }else{
+    //     str=" w-screen h-screen bg-cover"
+    // }
+    if (window.innerHeight < 670 && window.outerWidth < 1000) {
+        str = "bg-noob w-full h-full bg-cover"
+    } else {
+        str = "bg-noob w-screen h-screen bg-cover"
     }
     return (
-        <html className={str}>
+        <html className={str} data-theme="night">
         <Navbar/>
         <h1 className="text-center text-emerald-300 text-6xl font-suk">About me!</h1>
         <h2 className = "text-emerald-300 px-5 py-2 font-bold font-par">My Experience :</h2>
