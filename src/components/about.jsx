@@ -12,13 +12,8 @@ export default function About(){
     let [x_screen,setX_screen] = useState(0) 
 
     useEffect(() => {
-        x_html = inputRef.current.getBoundingClientRect().height
-        x_screen = window.screen.availHeight
-        setX_html(x_html)
-        setX_screen(x_screen)
-
-        console.log(x_html)
-        console.log(x_screen)
+        setX_html(inputRef.current.getBoundingClientRect().height)
+        setX_screen(window.screen.availHeight)
         
     }, [])
 
