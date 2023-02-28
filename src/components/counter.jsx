@@ -37,7 +37,7 @@ export default function Counter() {
     // }
         
     if (x_html < x_screen){
-        str="bg-noob w-screen h-screen bg-cover"
+        str="bg-noob w-screen h-screen bg-cover "
     }else{
         str="bg-noob w-full h-full bg-cover"
     }
