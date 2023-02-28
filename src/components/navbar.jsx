@@ -7,8 +7,9 @@ export default function Navbar(){
                     <Link className="mx-4 px-4 py-4 rounded-xl hover:bg-emerald-200 hover:text-black" to="/">Home</Link>
                 </li >
                 <li>
-                    <Link className="mx-4 px-4 py-4 rounded-xl hover:bg-emerald-200 hover:text-black" to="/about">About me</Link>
+                    <Link className="mx-4 px-4 py-4 rounded-xl hover:bg-emerald-200 hover:text-black " to="/about">About me</Link>
                 </li>
+                
             </ul>
         </nav>
     );

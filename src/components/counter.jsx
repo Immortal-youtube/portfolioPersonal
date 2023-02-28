@@ -1,5 +1,6 @@
-//import React, { Component } from 'react';
-//import { useState } from 'react';
+
+import { useEffect, useState } from "react";
+import { useRef } from "react";
 import Navbar from './navbar';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
@@ -11,8 +12,22 @@ const github = require('./icons/github.png')
 
 
 
-function Counter() { 
-        let str=""
+export default function Counter() { 
+    let str = ""
+    const inputRef = useRef(0);
+    let [x_html,setX_html] = useState(0) ;
+    let [x_screen,setX_screen] = useState(0) ;
+
+    useEffect(() => {
+        x_html = inputRef.current.getBoundingClientRect().height;
+        x_screen = window.screen.availHeight;
+        setX_html(x_html)
+        setX_screen(x_screen)
+
+        console.log(x_html)
+        console.log(x_screen)
+        
+    }, [])
     // console.log(window.outerHeight)
     // console.log(window.innerWidth)
     // if(window.innerHeight < 670){
@@ -25,44 +40,43 @@ function Counter() {
     // }else{
     //     str=" w-screen h-screen bg-cover"
     // }
-        console.log(window.innerHeight)
-        if (window.innerHeight < 670 && window.outerWidth < 1000) {
-            str = "bg-noob w-full h-full bg-cover"
-        } else {
-            str = "bg-noob w-screen h-screen bg-cover"
-        }
-
+        
+    if (x_html < x_screen){
+        str="bg-noob w-screen h-screen bg-cover"
+    }else{
+        str="bg-noob w-full h-full bg-cover"
+    }
     
 
-        return (
-            
-            <html className={str} id="main" data-theme="night">
-                <Helmet>
-                    <title>Immortal</title>
-                </Helmet>
-                <Navbar />
-                <h1 className='font-suk text-emerald-300 text-6xl text-center'>Hey there!, I'm Ansh</h1>
-                <p className= 'font-par text-center text-white py-5'>I am a <h3 className='inline text-emerald-600'>full stack developer</h3>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
-                    <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
-                </p>
-                <div className='text-center my-9'>
-                    <a className = 'tooltip tooltip-bottom' data-tip='Join my server!' href='https://discord.gg/gqp5nMzwTY' target='_blank' rel="noreferrer"><img src={discord} alt='discord' className=' hover:animate-bounce w-20 h-20 mx-4'/></a>
-                    <a className = 'tooltip tooltip-bottom' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4'/></a>
-                    <a className = 'tooltip tooltip-bottom' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4'/></a>
-                </div>
-                <h2 className=' font-par text-white flex-auto px-5 '>On going Projects:
-                    <br/> <FontAwesomeIcon icon={faCode} /> Computer Vision based Cube Solver(Kociemba's Algorithm)
-                    <br/> <FontAwesomeIcon icon={faCode} /> Updating Discord bot  
-                    <br/> <FontAwesomeIcon icon={faCode} /> Voice Assistant using ChatGPT
-                </h2>
-                <h2 className=' text-white font-par flex-auto pt-5 px-5'>
-                    Connect with me on Discord or mail me at:<br/> <h2 className='text-emerald-300'>immortal.gaming0808@gmail.com</h2>
-                </h2>
-            </html>
-            
-        );
+    return (
+        
+        <div className={str} ref={inputRef}>
+        
+            <Helmet>
+                <title>Immortal</title>
+            </Helmet>
+            <Navbar />
+            <h1 className='font-suk text-emerald-300 text-6xl text-center'>Hey there!, I'm Ansh</h1>
+            <p className= 'font-par text-center text-white py-5'>I am a <p className='inline text-emerald-600'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
+                <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
+            </p>
+            <div className='text-center my-9'>
+                <a className = 'tooltip tooltip-bottom' data-tip='Join my server!' href='https://discord.gg/gqp5nMzwTY' target='_blank' rel="noreferrer"><img src={discord} alt='discord' className=' hover:animate-bounce w-20 h-20 mx-4'/></a>
+                <a className = 'tooltip tooltip-bottom' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4'/></a>
+                <a className = 'tooltip tooltip-bottom' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4'/></a>
+            </div>
+            <h2 className=' font-par text-white flex-auto px-5 '>On going Projects:
+                <br/> <FontAwesomeIcon icon={faCode} /> Computer Vision based Cube Solver(Kociemba's Algorithm)
+                <br/> <FontAwesomeIcon icon={faCode} /> Updating Discord bot  
+                <br/> <FontAwesomeIcon icon={faCode} /> Voice Assistant using ChatGPT
+            </h2>
+            <h2 className=' text-white font-par flex-auto pt-5 px-5'>
+                Connect with me on Discord or mail me at:<br/> <h2 className='text-emerald-300'>immortal.gaming0808@gmail.com</h2>
+            </h2>
+        </div>
+        
+    );
         
     
 }
  
-export default Counter;

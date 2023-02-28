@@ -3,6 +3,7 @@ import './App.css';
 import { Routes, Route} from 'react-router-dom';
 import Counter from './components/counter';
 import About from './components/about';
+import MyProject from './components/myprojects';
 
 import "./components/icons/font"
 
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Counter />} />
         <Route path="/about" element={<About />} />
+        <Route path="/myprojects" element={<MyProject />} />
       </Routes>
     </div>
   );
