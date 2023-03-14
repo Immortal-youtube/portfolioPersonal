@@ -51,22 +51,22 @@ export default function Counter() {
                 <title>Immortal</title>
             </Helmet>
             <Navbar />
-            <h1 className='font-suk text-emerald-300 text-6xl text-center'>Hey there!, I'm Ansh</h1>
-            <p className= 'font-par text-center text-white py-5'>I am a <p className='inline text-emerald-600'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
+            <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there!, I'm Ansh</h1>
+            <p className= 'font-par text-center text-white py-5'>I am a <p className='inline text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
                 <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
             </p>
             <div className='text-center my-9'>
                 <a className = 'tooltip tooltip-bottom' data-tip='Join my server!' href='https://discord.gg/gqp5nMzwTY' target='_blank' rel="noreferrer"><img src={discord} alt='discord' className=' hover:animate-bounce w-20 h-20 mx-4'/></a>
                 <a className = 'tooltip tooltip-bottom' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4'/></a>
-                <a className = 'tooltip tooltip-bottom' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4'/></a>
+                <a className = 'tooltip tooltip-bottom' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4 bg-white rounded-full'/></a>
             </div>
             <h2 className=' font-par text-white flex-auto px-5 '>On going Projects:
                 <br/> <FontAwesomeIcon icon={faCode} /> Computer Vision based Cube Solver(Kociemba's Algorithm)
                 <br/> <FontAwesomeIcon icon={faCode} /> Updating Discord bot  
                 <br/> <FontAwesomeIcon icon={faCode} /> Voice Assistant using ChatGPT
             </h2>
-            <h2 className=' text-white font-par flex-auto pt-5 px-5'>
-                Connect with me on Discord or mail me at:<br/> <h2 className='text-emerald-300'>immortal.gaming0808@gmail.com</h2>
+            <h2 className=' text-purple-400 font-par flex-auto pt-5 px-5'>
+                Connect with me on Discord or mail me at:<br/> <h2 className='text-purple-300'>immortal.gaming0808@gmail.com</h2>
             </h2>
         </div>
         

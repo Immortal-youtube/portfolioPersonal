@@ -24,7 +24,7 @@ module.exports = {
     extend: {
       backgroundImage:{
         'cool-background':'url(.components/icons/background.png)',
-        'noob': 'url(https://wallpaperaccess.com/full/1567665.png)'
+        'noob': 'url(https://img.freepik.com/free-vector/gradient-cyber-futuristic-background_23-2149117429.jpg)'
       }
     },
     daisyui: {
