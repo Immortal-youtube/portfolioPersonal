@@ -61,11 +61,23 @@ export default function Counter() {
                 <a className = 'tooltip tooltip-bottom' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4'/></a>
                 <a className = 'tooltip tooltip-bottom' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4 bg-white rounded-full'/></a>
             </div>
-            <h2 className=' font-par text-white flex-auto px-5 '>On going Projects:
+            {/* <h2 className=' font-par text-white flex-auto px-5 '>On going Projects:
                 <br/> <FontAwesomeIcon icon={faCode} /> Computer Vision based Cube Solver(Kociemba's Algorithm)
                 <br/> <FontAwesomeIcon icon={faCode} /> Updating Discord bot  
                 <br/> <FontAwesomeIcon icon={faCode} /> Voice Assistant using ChatGPT
-            </h2>
+            </h2> */}
+            <h2 className=' font-par text-white flex-auto px-5'>On going Projects:</h2>
+            <ul>
+                <li className="font-par text-white flex-auto px-5 py-1">
+                <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Computer Vision based Cube Solver(Kociemba's Algorithm)
+                </li>
+                <li className="font-par text-white flex-auto px-5 py-1">
+                <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Updating Discord bot
+                </li>
+                <li className="font-par text-white flex-auto px-5 py-1">
+                <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Voice Assistant using ChatGPT
+                </li>
+            </ul>
             <h2 className=' text-purple-400 font-par flex-auto pt-5 px-5'>
                 Connect with me on Discord or mail me at:<br/> <h2 className='text-purple-300'>immortal.gaming0808@gmail.com</h2>
             </h2>
