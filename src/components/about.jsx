@@ -38,9 +38,9 @@ export default function About(){
     //     str="bg-noob w-full h-full bg-cover"
     // }
     if (x_html < x_screen){
-        str="bg-noob w-screen h-screen bg-cover"
+        str="bg-noob  w-screen h-screen bg-cover bg-fixed"
     }else{
-        str="bg-noob w-full h-full bg-cover"
+        str="bg-noob w-full h-full bg-cover bg-fixed"
     }
     
     return (
@@ -50,18 +50,18 @@ export default function About(){
             <title>About me!</title>
         </Helmet>
         <Navbar/>
-        <h1 className="text-center text-emerald-300 text-6xl font-suk">About me!</h1>
-        <h2 className = "text-emerald-300 px-5 py-2 font-bold font-par">My Experience :</h2>
+        <h1 className="text-center text-purple-300 text-6xl font-suk">About me!</h1>
+        <h2 className = "text-purple-400 px-5 py-2 font-bold font-par">My Experience :</h2>
         
         <p className = "px-5 pt-3 pb-12 font-par text-white">I am a self-taught Programmer. I have learnt from the Internet. I have gathered
         knowledge from everywhere I can to achieve my skill level. I have helped many people and given advice to many others. </p>
 
-        <h2 className = "text-emerald-300 px-5 py-2 font-bold font-par">My Intrests and Hobbies :</h2>
+        <h2 className = "text-purple-400 px-5 py-2 font-bold font-par">My Intrests and Hobbies :</h2>
         <p className="px-5 pt-3 pb-12 font-par text-white">I enjoy playing football and basketball. I am also an Amateur cuber with the fastest time of 19.56s. I enjoy
         rap music and of course, programming</p>
         
         
-        <h2 className="text-emerald-300 px-5 py-2 font-bold font-par">My Programming Path : </h2>
+        <h2 className="text-purple-400 px-5 py-2 font-bold font-par">My Programming Path : </h2>
         <ul className="text-white font-par px-5 py-2">
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I started with a Python Udemy Course</li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> Then learnt Java so that I could code Minecraft Plugins.</li>

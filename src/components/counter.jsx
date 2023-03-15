@@ -37,11 +37,12 @@ export default function Counter() {
     // }
         
     if (x_html < x_screen){
-        str="bg-noob w-screen h-screen bg-cover "
+        str="bg-noob w-screen h-screen bg-cover bg-fixed"
     }else{
-        str="bg-noob w-full h-full bg-cover"
+        str="bg-noob w-full h-full bg-cover bg-fixed"
     }
-    
+    console.log(x_html)
+    console.log(x_screen)
 
     return (
         
