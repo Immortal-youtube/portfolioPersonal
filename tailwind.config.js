@@ -22,9 +22,10 @@ module.exports = {
       par : ['Orbitron', 'sans-serif'],
     },
     extend: {
+      //https://img.freepik.com/free-vector/gradient-cyber-futuristic-background_23-2149117429.jpg
       backgroundImage:{
         'cool-background':'url(.components/icons/background.png)',
-        'noob': 'url(https://img.freepik.com/free-vector/gradient-cyber-futuristic-background_23-2149117429.jpg)'
+        'noob': 'url(https://images.squarespace-cdn.com/content/v1/5c2d0f0231d4df5dc839bda8/1623793091596-0K3DZ83EP8ICPHTBT7HM/tech_anim1.gif?format=1000w)'
       }
     },
     daisyui: {
