@@ -79,7 +79,7 @@ export default function Counter() {
                 </li>
             </ul>
             <h2 className=' text-purple-400 font-par flex-auto pt-5 px-5'>
-                Connect with me on Discord or mail me at:<br/> <h2 className='text-purple-300'>immortal.gaming0808@gmail.com</h2>
+                Connect with me on Discord or mail me at:<br/> <h2 className='text-purple-300 py-2'>immortal.gaming0808@gmail.com</h2>
             </h2>
         </div>
         
