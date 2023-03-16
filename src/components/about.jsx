@@ -2,7 +2,7 @@ import Navbar from "./navbar";
 import { useEffect, useState } from "react";
 import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+import { faCode,faArrowDown } from "@fortawesome/free-solid-svg-icons";
 import { Helmet } from "react-helmet";
 
 export default function About(){
@@ -61,16 +61,24 @@ export default function About(){
         rap music and of course, programming</p>
         
         
-        <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-par">My Programming Path : </h2>
-        <ul className="text-white font-par px-5 py-2">
+        <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-par text-center">My Programming Path : </h2>
+        <ul className="text-white font-par px-5 py-2 text-center">
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I started with a Python Udemy Course</li>
+        <li className="py-2"><FontAwesomeIcon icon = {faArrowDown} className="text-purple-300"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> Then learnt Java so that I could code Minecraft Plugins.</li>
+        <li className="py-2"><FontAwesomeIcon icon = {faArrowDown} className="text-purple-300"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then moved on to coding tougher programs to push my skills to the limit.</li>
+        <li className="py-2"><FontAwesomeIcon icon = {faArrowDown} className="text-purple-300"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> From there I was intrested in web developement so started learning JavaScript.</li>
+        <li className="py-2"><FontAwesomeIcon icon = {faArrowDown} className="text-purple-300"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I initally started making websites with vanilla JavaScript, HTML and CSS.</li>
+        <li className="py-2"><FontAwesomeIcon icon = {faArrowDown} className="text-purple-300"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then moved on to ExpressJS which had made my life easier.</li>
+        <li className="py-2"><FontAwesomeIcon icon = {faArrowDown} className="text-purple-300"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then got into Arduinos and learnt C++ for a Project</li>
+        <li className="py-2"><FontAwesomeIcon icon = {faArrowDown} className="text-purple-300"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then learnt ReactJS.</li>
+        <li className="py-2"><FontAwesomeIcon icon = {faArrowDown} className="text-purple-300"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I am now currently learning golang and improving my skills in other languages as well</li>
         </ul>
         </div> 
