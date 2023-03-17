@@ -19,7 +19,8 @@ module.exports = {
     },
     fontFamily: {
       suk : ['Tourney', 'sans-serif'],
-      par : ['Orbitron', 'sans-serif'],
+      par : ['Roboto', 'sans-serif'],
+      high: ['Orbitron','sans-serif'],
     },
     extend: {
       //https://img.freepik.com/free-vector/gradient-cyber-futuristic-background_23-2149117429.jpg

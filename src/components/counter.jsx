@@ -53,20 +53,20 @@ export default function Counter() {
             </Helmet>
             <Navbar />
             <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there!, I'm Ansh</h1>
-            <p className= 'font-par text-center text-white py-5'>I am a <p className='inline text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
+            <p className= 'font-par text-center text-white py-5'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
                 <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
             </p>
             <div className='text-center my-9'>
-                <a className = 'tooltip tooltip-bottom' data-tip='Join my server!' href='https://discord.gg/gqp5nMzwTY' target='_blank' rel="noreferrer"><img src={discord} alt='discord' className=' hover:animate-bounce w-20 h-20 mx-4'/></a>
-                <a className = 'tooltip tooltip-bottom' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4'/></a>
-                <a className = 'tooltip tooltip-bottom' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='hover:animate-bounce w-20 h-20 mx-4 bg-white rounded-full'/></a>
+                <a className = 'tooltip tooltip-bottom' data-tip='Join my server!' href='https://discord.gg/gqp5nMzwTY' target='_blank' rel="noreferrer"><img src={discord} alt='discord' className='hover:scale-110 duration-300 w-20 h-20 mx-4'/></a>
+                <a className = 'tooltip tooltip-bottom' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:scale-110 duration-300 w-20 h-20 mx-4'/></a>
+                <a className = 'tooltip tooltip-bottom' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='hover:scale-110 duration-300 w-20 h-20 mx-4 bg-white rounded-full'/></a>
             </div>
             {/* <h2 className=' font-par text-white flex-auto px-5 '>On going Projects:
                 <br/> <FontAwesomeIcon icon={faCode} /> Computer Vision based Cube Solver(Kociemba's Algorithm)
                 <br/> <FontAwesomeIcon icon={faCode} /> Updating Discord bot  
                 <br/> <FontAwesomeIcon icon={faCode} /> Voice Assistant using ChatGPT
             </h2> */}
-            <h2 className=' font-par text-white flex-auto px-5'>On going Projects:</h2>
+            <h2 className=' font-high text-purple-400 flex-auto px-5'>On going Projects:</h2>
             <ul>
                 <li className="font-par text-white flex-auto px-5 py-1">
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Computer Vision based Cube Solver(Kociemba's Algorithm)

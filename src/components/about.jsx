@@ -51,17 +51,17 @@ export default function About(){
         </Helmet>
         <Navbar/>
         <h1 className="text-center text-purple-300 text-6xl font-suk animate">About me!</h1>
-        <h2 className = "text-purple-400 border-l-4 border-dashed border-purple-500 px-5 py-2 font-bold font-par">My Experience :</h2>
+        <h2 className = "text-purple-400 border-l-4 border-dashed border-purple-500 px-5 py-2 font-bold font-high">My Experience :</h2>
         
         <p className = "px-5 pt-3 pb-12 font-par text-white">I am a self-taught Programmer. I have learnt from the Internet. I have gathered
         knowledge from everywhere I can to achieve my skill level. I have helped many people and given advice to many others. </p>
 
-        <h2 className = "text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-par">My Intrests and Hobbies :</h2>
+        <h2 className = "text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high">My Intrests and Hobbies :</h2>
         <p className="px-5 pt-3 pb-12 font-par text-white">I enjoy playing football and basketball. I am also an Amateur cuber with the fastest time of 19.56s. I enjoy
         rap music and of course, programming</p>
         
         
-        <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-par ">My Programming Path : </h2>
+        <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high ">My Programming Path : </h2>
         <ul className="text-white font-par px-5 py-2 text-center">
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I started with a Python Udemy Course</li>
         <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
@@ -81,6 +81,8 @@ export default function About(){
         <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I am now currently learning golang and improving my skills in other languages as well</li>
         </ul>
+        <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high ">A bit of timepass: </h2>
+
         </div> 
     );
     
