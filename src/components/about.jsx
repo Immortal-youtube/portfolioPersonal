@@ -69,7 +69,7 @@ export default function About(){
         <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then moved on to coding tougher programs to push my skills to the limit.</li>
         <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
-        <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> From there I was intrested in web developement so started learning JavaScript.</li>
+        <li clzassName="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> From there I was intrested in web developement so started learning JavaScript.</li>
         <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I initally started making websites with vanilla JavaScript, HTML and CSS.</li>
         <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
