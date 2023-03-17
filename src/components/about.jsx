@@ -50,7 +50,7 @@ export default function About(){
             <title>About me!</title>
         </Helmet>
         <Navbar/>
-        <h1 className="text-center text-purple-300 text-6xl font-suk animate-pulse">About me!</h1>
+        <h1 className="text-center text-purple-300 text-6xl font-suk animate">About me!</h1>
         <h2 className = "text-purple-400 border-l-4 border-dashed border-purple-500 px-5 py-2 font-bold font-par">My Experience :</h2>
         
         <p className = "px-5 pt-3 pb-12 font-par text-white">I am a self-taught Programmer. I have learnt from the Internet. I have gathered
