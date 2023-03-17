@@ -40,7 +40,7 @@ export default function About(){
     if (x_html < x_screen){
         str="bg-noob  w-screen h-screen bg-cover bg-fixed"
     }else{
-        str="bg-noob w-screen h-full bg-cover bg-fixed"
+        str="bg-noob w-full h-full bg-cover bg-fixed"
     }
     
     return (
@@ -64,21 +64,21 @@ export default function About(){
         <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-par ">My Programming Path : </h2>
         <ul className="text-white font-par px-5 py-2 text-center">
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I started with a Python Udemy Course</li>
-        <li className="py-2 animate-bounce"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-40 -rotate-45"/></li>
+        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> Then learnt Java so that I could code Minecraft Plugins.</li>
-        <li className="py-2 animate-bounce"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-40 rotate-45"/></li>
+        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then moved on to coding tougher programs to push my skills to the limit.</li>
-        <li className="py-2 animate-bounce"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-40 -rotate-45"/></li>
+        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> From there I was intrested in web developement so started learning JavaScript.</li>
-        <li className="py-2 animate-bounce"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-40 rotate-45"/></li>
+        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I initally started making websites with vanilla JavaScript, HTML and CSS.</li>
-        <li className="py-2 animate-bounce"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-40 -rotate-45"/></li>
+        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then moved on to ExpressJS which had made my life easier.</li>
-        <li className="py-2 animate-bounce"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-40 rotate-45"/></li>
+        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then got into Arduinos and learnt C++ for a Project</li>
-        <li className="py-2 animate-bounce"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-40 -rotate-45"/></li>
+        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then learnt ReactJS. It was hard but it saved me a lot of time now</li>
-        <li className="py-2 animate-bounce"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-40 rotate-45"/></li>
+        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I am now currently learning golang and improving my skills in other languages as well</li>
         </ul>
         </div> 
