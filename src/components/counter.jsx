@@ -100,7 +100,7 @@ export default function Counter() {
                 </h2>
             <h2 className='font-high text-purple-400 flex-auto px-5 py-3'>Casual flexing:</h2>
             <div className="pl-2">
-            <img src={css1} alt="not loading"/>
+            {/* <img src={css1} alt="not loading"/>
             <img src={css2} alt="not loading"/>
             <img src={css3} alt="not loading"/>
             <img src={css4} alt="not loading"/>
@@ -113,7 +113,7 @@ export default function Counter() {
             <img src={css11} alt="not loading"/>
             <img src={css12} alt="not loading"/>
             <img src={css13} alt="not loading"/>
-            <img src={css14} alt="not loading"/>
+            <img src={css14} alt="not loading"/> */}
             </div>
         </div>
         
