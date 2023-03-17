@@ -2,7 +2,7 @@ import Navbar from "./navbar";
 import { useEffect, useState } from "react";
 import { useRef } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCode,faArrowDown } from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { Helmet } from "react-helmet";
 
 export default function About(){
@@ -47,43 +47,48 @@ export default function About(){
         
         <div className={str} ref = {inputRef}>
             <Helmet>
-            <title>About me!</title>
+            <title className="">About me!</title>
         </Helmet>
         <Navbar/>
+        
         <h1 className="text-center text-purple-300 text-6xl font-suk animate">About me!</h1>
+        
+            
         <h2 className = "text-purple-400 border-l-4 border-dashed border-purple-500 px-5 py-2 font-bold font-high">My Experience :</h2>
         
         <p className = "px-5 pt-3 pb-12 font-par text-white">I am a self-taught Programmer. I have learnt from the Internet. I have gathered
         knowledge from everywhere I can to achieve my skill level. I have helped many people and given advice to many others. </p>
-
+        
+        
         <h2 className = "text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high">My Intrests and Hobbies :</h2>
         <p className="px-5 pt-3 pb-12 font-par text-white">I enjoy playing football and basketball. I am also an Amateur cuber with the fastest time of 19.56s. I enjoy
         rap music and of course, programming</p>
+            
         
         
         <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high ">My Programming Path : </h2>
-        <ul className="text-white font-par px-5 py-2 text-center">
+        <ul className="text-white font-par px-5 py-2">
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I started with a Python Udemy Course</li>
-        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
-        <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> Then learnt Java so that I could code Minecraft Plugins.</li>
-        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
+        <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2 ">&#8192;</li>
+        <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/>Then learnt Java so that I could code Minecraft Plugins.</li>
+        <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2">‎‎‎‎‎‎</li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then moved on to coding tougher programs to push my skills to the limit.</li>
-        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
-        <li clzassName="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> From there I was intrested in web developement so started learning JavaScript.</li>
-        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
+        <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2">‎‎‎‎‎‎</li>
+        <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> From there I was intrested in web developement so started learning JavaScript.</li>
+        <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2">‎‎‎‎‎‎</li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I initally started making websites with vanilla JavaScript, HTML and CSS.</li>
-        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
+        <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2">‎‎‎‎‎‎</li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then moved on to ExpressJS which had made my life easier.</li>
-        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
+        <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2">‎‎‎‎‎‎</li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then got into Arduinos and learnt C++ for a Project</li>
-        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl -translate-x-32 -rotate-45"/></li>
-        <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I then learnt ReactJS. It was hard but it saved me a lot of time now</li>
-        <li className="py-2 animate-bounce text-center"><FontAwesomeIcon icon = {faArrowDown} className="text-yellow-300 text-3xl translate-x-32 rotate-45"/></li>
+        <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2">‎‎‎‎‎‎</li>
+        <li className="py-2"> <FontAwesomeIcon icon={faCode} className= "text-emerald-300"/> I then learnt ReactJS. It was hard but it saved me a lot of time now</li>
+        <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2">‎‎‎‎‎‎</li>
         <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I am now currently learning golang and improving my skills in other languages as well</li>
         </ul>
-        <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high ">A bit of timepass: </h2>
-
-        </div> 
+        </div>
+        
+        
     );
     
 }
