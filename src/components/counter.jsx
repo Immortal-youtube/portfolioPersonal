@@ -5,9 +5,9 @@ import Navbar from './navbar';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-// const discord = require('./icons/discord.png')
-// const youtube = require('./icons/youtube.png')
-// const github = require('./icons/github.png')
+const discord = require('./icons/discord.png')
+const youtube = require('./icons/youtube.png')
+const github = require('./icons/github.png')
 // const css1 = require('./icons/csspics/css1.png')
 // const css2 = require('./icons/csspics/css2.png')
 // const css3 = require('./icons/csspics/css3.png')
@@ -59,7 +59,7 @@ export default function Counter() {
     }
     console.log(x_html)
     console.log(x_screen)
-
+    
     return (
         
         <div className={str} ref={inputRef}>
@@ -68,18 +68,22 @@ export default function Counter() {
                 <title>Immortal</title>
             </Helmet>
             <Navbar />
+            
+            
+            
+            
             <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there!, I'm Ansh</h1>
             <p className= 'font-par text-center text-white py-5'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
                 <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
             </p>
+            <div className='flex justify-center space-x-10 py-4'>
+                <a className = 'tooltip tooltip-bottom ' data-tip='Join my server!' href='https://discord.gg/gqp5nMzwTY' target='_blank' rel="noreferrer"><img src={discord} alt='discord' className='hover:scale-110 duration-300'/></a>
+                <a className = 'tooltip tooltip-bottom ' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:scale-110 duration-300'/></a> 
+                <a className = 'tooltip tooltip-bottom ' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='bg-white hover:scale-110 duration-300 rounded-full'/></a>
+            </div>
             
-            {/* <h2 className=' font-par text-white flex-auto px-5 '>On going Projects:
-                <br/> <FontAwesomeIcon icon={faCode} /> Computer Vision based Cube Solver(Kociemba's Algorithm)
-                <br/> <FontAwesomeIcon icon={faCode} /> Updating Discord bot  
-                <br/> <FontAwesomeIcon icon={faCode} /> Voice Assistant using ChatGPT
-            </h2> */}
             <h2 className=' font-high text-purple-400 flex-auto px-5'>On going Projects:</h2>
-            <ul>
+            <ul className="pb-14">
                 <li className="font-par text-white flex-auto px-5 py-1">
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Computer Vision based Cube Solver(Kociemba's Algorithm)
                 </li>
@@ -96,21 +100,10 @@ export default function Counter() {
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Personal Firewall
                 </li>
             </ul>
-            <h2 className="font-high text-purple-400 flex-auto px-5 py-2">Why do I code ?</h2>
-            <p className="font-par text-white flex-auto px-5 py-1">Coding or Programming is considered as just memorising syntax and using it to build Applications 
-            which is not true at all. Such stereotypes have forced many to switch gears and go away from code.</p>
             
-
-            {/* <div className='flex justify-center space-x-4'>
-                <a className = 'tooltip tooltip-bottom ' data-tip='Join my server!' href='https://discord.gg/gqp5nMzwTY' target='_blank' rel="noreferrer"><img src={discord} alt='discord' className='hover:scale-110 duration-300 rounded-full w-20 h-20 mx-4 hover:shadow-2xl hover:shadow-lime-300'/></a>
-                <a className = 'tooltip tooltip-bottom ' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:scale-110 rounded-full duration-300 w-20 h-20 mx-4 hover:shadow-2xl hover:shadow-lime-300'/></a> 
-                <a className = 'tooltip tooltip-bottom ' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='hover:scale-110 duration-300 w-20 h-20 mx-4 bg-white rounded-full hover:shadow-2xl hover:shadow-lime-300'/></a>
-            </div> */}
-
+            
         </div>
         
-    );
-        
-    
+    ); 
 }
  

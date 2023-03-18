@@ -51,19 +51,32 @@ export default function About(){
         </Helmet>
         <Navbar/>
         
-        <h1 className="text-center text-purple-300 text-6xl font-suk animate">About me!</h1>
+        <h1 className="text-center text-purple-300 text-6xl font-suk animate pb-10">About me!</h1>
         
-            
-        <h2 className = "text-purple-400 border-l-4 border-dashed border-purple-500 px-5 py-2 font-bold font-high">My Experience :</h2>
-        
-        <p className = "px-5 pt-3 pb-12 font-par text-white">I am a self-taught Programmer. I have learnt from the Internet. I have gathered
-        knowledge from everywhere I can to achieve my skill level. I have helped many people and given advice to many others. </p>
-        
-        
-        <h2 className = "text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high">My Intrests and Hobbies :</h2>
-        <p className="px-5 pt-3 pb-12 font-par text-white">I enjoy playing football and basketball. I am also an Amateur cuber with the fastest time of 19.56s. I enjoy
-        rap music and of course, programming</p>
-            
+        <div className="pb-10">
+            <div className="duration-300 pb-10">
+                <h2 className = "text-purple-400 border-l-4 border-dashed border-purple-500 px-5 py-2 font-bold font-high">My Experience :</h2>
+                
+                <p className = "px-5 pt-3 pb-12 font-par text-white">I am a self-taught Programmer. I have learnt from the Internet. I have gathered
+                knowledge from everywhere I can to achieve my skill level. I have helped many people and given advice to many others. The programming taught
+                in school never intrested me. It was until I started learning it on my own that I understood how intresting this genre is.
+                I now search for ideas to solve real life problems and using my skill and knowledge.</p>
+            </div>
+            <div className="duration-300">
+                <h2 className = "text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high">My Intrests and Hobbies :</h2>
+                <p className="px-5 pt-3 pb-12 font-par text-white">I enjoy playing football and basketball. I am also an Amateur cuber with the fastest time of 19.56s. I enjoy
+                rap music and of course, programming. My favourite football club is <p className="text-purple-400 font-high inline">Arsenal</p> and favourite rapper is 
+                <p className="text-purple-400 font-high inline"> Eminem</p>. I have recently gained intrest in<p className="text-purple-400 font-high inline"> Formula 1 </p> as well.</p>
+            </div>
+            <h2 className="text-white font-high px-5">Football : 80%</h2>
+            <div className="bg-blue-500 mx-5 h-3 w-72 mb-3"></div>
+            <h2 className="text-white font-high px-5">Cubing : 100%</h2>
+            <div className="bg-red-500 mx-5 h-3 w-80 mb-3"></div>
+            <h2 className="text-white font-high px-5">Eminem : 50%</h2>
+            <div className="bg-yellow-500 mx-5 h-3 w-40 mb-3"></div>
+            <h2 className="text-white font-high px-5">Formula 1: 60%</h2>
+            <div className="bg-orange-500 mx-5 h-3 w-44 mb-3"></div>
+        </div> 
         
         
         <h2 className="text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high ">My Programming Path : </h2>
