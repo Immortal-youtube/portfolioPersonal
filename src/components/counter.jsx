@@ -55,10 +55,10 @@ export default function Counter() {
         
     if (x_html < x_screen){
         console.log("shit")
-        str="bg-noob  w-screen h-screen bg-cover bg-fixed"
+        str="bg-noob w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed"
     }else{
         console.log("wtf")
-        str="bg-noob w-full h-full bg-cover bg-fixed"
+        str="bg-noob w-full h-full selection:bg-slate-700 bg-cover bg-fixed"
     }
 
     
@@ -78,9 +78,9 @@ export default function Counter() {
             <Navbar />
             
             <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there, I'm Ansh !</h1>
-            <p className= 'font-par text-center text-white py-5 pb-14'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
+            <p className= 'font-par text-center text-white py-5 pb-14 px-5'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
                 <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc. If you would like to collaborate with me on any project,
-                you can connect with me on <p className='inline font-high text-purple-400'><a href='https://discord.gg/gyfCYxxQep' target='_blank' rel="noreferrer" >Discord</a></p> or on <p className='inline font-high text-purple-400'><a href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer" >Github</a></p> Make 
+                <br />You can connect with me on <p className='inline font-high text-purple-400'><a href='https://discord.gg/gyfCYxxQep' target='_blank' rel="noreferrer" >Discord</a></p> or on <p className='inline font-high text-purple-400'><a href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer" >Github</a></p> Make 
                 sure to check my <p className='inline font-high text-purple-400'><a href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer" >Youtube</a></p> channel as well.
             </p>
             
@@ -104,9 +104,13 @@ export default function Counter() {
                 </li>
             </ul>
             <h2 className=' font-high text-purple-400 px-5'>My thoughts about Programming :</h2>
-            <p className="font-par text-white px-5">Programming is the future and there is no denying it. Firstly, programming is not what you learn in schools. In school you learn
-            to memorise syntax to answer the questions and get marks. The true fun of programming can never be taught by learning if and else loops.</p>
-            
+            <p className="font-par text-white pb-14 px-5">Indeed, programming is the industry of the future. First off, programming is not something that is taught in schools. You learn to memorise syntax in school in order to correctly answer questions and gain points. Learning if and else loops will never be able to teach programming's actual enjoyment. Although the initial stages of the Process will be tedious, they will be worthwhile. Just one piece of information can enable you to achieve so much more.
+            </p>
+            <h2>‎‎‎‎‎‎</h2>
+
+
+
+
 
         </div>
         
