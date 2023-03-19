@@ -79,7 +79,7 @@ export default function Counter() {
                 <title>Immortal</title>
             </Helmet>
             <Navbar />
-
+            
             <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there, I'm Ansh !</h1>
             <p className= 'font-par text-center text-white py-5 pb-14 px-5'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
                 <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc. If you would like to collaborate with me on any project,
@@ -112,7 +112,7 @@ export default function Counter() {
             {/* <h2>‎‎‎‎‎‎</h2> */}
             <h2 className="font-high text-purple-400 px-5 pb-10">Causal Flexing :</h2>
             <div className="overflow-x-scroll scrollbar scrollbar-thumb-cyan-800 scrollbar-track-sky-500 flex">
-            <img src={css1} alt="discord"/>
+            <img src={css1} alt="discord" />
             <img  src={css2} alt="discord"/>
             <img  src={css3} alt="discord"/>
             <img  src={css4} alt="discord"/>
