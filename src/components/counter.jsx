@@ -38,6 +38,8 @@ export default function Counter() {
         setX_screen(window.screen.availHeight)
         setX_html_width(window.screen.availWidth)
     }, [])
+
+    
     // console.log(window.outerHeight)
     // console.log(window.innerWidth)
     // if(window.innerHeight < 670){
@@ -75,43 +77,37 @@ export default function Counter() {
             </Helmet>
             <Navbar />
             
-            
-            
-            
             <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there, I'm Ansh !</h1>
             <p className= 'font-par text-center text-white py-5 pb-14'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
-                <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
+                <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc. If you would like to collaborate with me on any project,
+                you can connect with me on <p className='inline font-high text-purple-400'><a href='https://discord.gg/gyfCYxxQep' target='_blank' rel="noreferrer" >Discord</a></p> or on <p className='inline font-high text-purple-400'><a href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer" >Github</a></p> Make 
+                sure to check my <p className='inline font-high text-purple-400'><a href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer" >Youtube</a></p> channel as well.
             </p>
-            <ul className='flex justify-center space-x-10'>
-                <li><a className = 'tooltip tooltip-bottom text-purple-400 font-high hover:scale-110 duration-300' data-tip='Join my server!' href='https://discord.gg/gyfCYxxQep' target='_blank' rel="noreferrer">DISCORD</a></li>
-                <li><a className = 'tooltip tooltip-bottom text-purple-400 font-high hover:scale-110 duration-300' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer">YOUTUBE</a></li> 
-                <li><a className = 'tooltip tooltip-bottom text-purple-400 font-high hover:scale-110 duration-300' data-tip='Check out my Profile!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer">GITHUB</a></li>
-            </ul>            
-            <h2 className=' font-high text-purple-400 flex-auto px-5'>On going Projects:</h2>
+            
+                        
+            <h2 className=' font-high text-purple-400 px-5'>On going Projects:</h2>
             <ul className="pb-14">
-                <li className="font-par text-white flex-auto px-5 py-1">
+                <li className="font-par text-white  px-5 py-1">
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Computer Vision based Cube Solver(Kociemba's Algorithm)
                 </li>
-                <li className="font-par text-white flex-auto px-5 py-1">
+                <li className="font-par text-white px-5 py-1">
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Updating Discord bot
                 </li>
-                <li className="font-par text-white flex-auto px-5 py-1">
+                <li className="font-par text-white px-5 py-1">
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Voice Assistant using ChatGPT
                 </li>
-                <li className="font-par text-white flex-auto px-5 py-1">
+                <li className="font-par text-white px-5 py-1">
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Project CLI (To setup different kinds of Projects)
                 </li>
-                <li className="font-par text-white flex-auto px-5 py-1">
+                <li className="font-par text-white px-5 py-1">
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Personal Firewall
                 </li>
             </ul>
-            <h2 className=' font-high text-purple-400 flex-auto px-5'>My thoughts about Programming :</h2>
-            <p className="font-par text-white flex-auto px-5">Programming is the future and there is no denying it. Firstly, programming is not what you learn in schools. In school you learn
+            <h2 className=' font-high text-purple-400 px-5'>My thoughts about Programming :</h2>
+            <p className="font-par text-white px-5">Programming is the future and there is no denying it. Firstly, programming is not what you learn in schools. In school you learn
             to memorise syntax to answer the questions and get marks. The true fun of programming can never be taught by learning if and else loops.</p>
+            
 
-            
-            
-            
         </div>
         
     ); 
