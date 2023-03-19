@@ -5,9 +5,9 @@ import Navbar from './navbar';
 import { Helmet } from 'react-helmet';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-const discord = require('./icons/discord.png')
-const youtube = require('./icons/youtube.png')
-const github = require('./icons/github.png')
+// const discord = require('./icons/discord.png')
+// const youtube = require('./icons/youtube.png')
+// const github = require('./icons/github.png')
 // const css1 = require('./icons/csspics/css1.png')
 // const css2 = require('./icons/csspics/css2.png')
 // const css3 = require('./icons/csspics/css3.png')
@@ -31,11 +31,12 @@ export default function Counter() {
     let str = ""
     const inputRef = useRef(0);
     let [x_html,setX_html] = useState(0) ;
+    let [x_html_width,setX_html_width] = useState(0);
     let [x_screen,setX_screen] = useState(0) ;
     useEffect(() => {
         setX_html(inputRef.current.getBoundingClientRect().height)
         setX_screen(window.screen.availHeight)
-        
+        setX_html_width(window.screen.availWidth)
     }, [])
     // console.log(window.outerHeight)
     // console.log(window.innerWidth)
@@ -57,6 +58,11 @@ export default function Counter() {
         console.log("wtf")
         str="bg-noob w-full h-full bg-cover bg-fixed"
     }
+
+    
+    if(x_html_width < 672){
+        console.log("short")
+    }
     console.log(x_html)
     console.log(x_screen)
     
@@ -72,16 +78,15 @@ export default function Counter() {
             
             
             
-            <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there!, I'm Ansh</h1>
-            <p className= 'font-par text-center text-white py-5'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
+            <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there, I'm Ansh !</h1>
+            <p className= 'font-par text-center text-white py-5 pb-14'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
                 <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc.
             </p>
-            <div className='flex justify-center space-x-10 py-4'>
-                <a className = 'tooltip tooltip-bottom ' data-tip='Join my server!' href='https://discord.gg/gqp5nMzwTY' target='_blank' rel="noreferrer"><img src={discord} alt='discord' className='hover:scale-110 duration-300'/></a>
-                <a className = 'tooltip tooltip-bottom ' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer"><img src={youtube} alt='discord' className='hover:scale-110 duration-300'/></a> 
-                <a className = 'tooltip tooltip-bottom ' data-tip='See my projects!' href='https://github.com/Immortal-youtube' target='_blank' rel="noreferrer"><img src={github} alt='discord' className='bg-white hover:scale-110 duration-300 rounded-full'/></a>
-            </div>
-            
+            <ul className='flex justify-center space-x-10'>
+                <li><a className = 'tooltip tooltip-bottom text-purple-400 font-high hover:scale-110 duration-300' data-tip='Join my server!' href='https://discord.gg/gyfCYxxQep' target='_blank' rel="noreferrer">DISCORD</a></li>
+                <li><a className = 'tooltip tooltip-bottom text-purple-400 font-high hover:scale-110 duration-300' data-tip='Check out my channel!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer">YOUTUBE</a></li> 
+                <li><a className = 'tooltip tooltip-bottom text-purple-400 font-high hover:scale-110 duration-300' data-tip='Check out my Profile!' href='https://www.youtube.com/channel/UCgppWM8JtpTfEYp8sa8XHEw' target='_blank' rel="noreferrer">GITHUB</a></li>
+            </ul>            
             <h2 className=' font-high text-purple-400 flex-auto px-5'>On going Projects:</h2>
             <ul className="pb-14">
                 <li className="font-par text-white flex-auto px-5 py-1">
@@ -100,6 +105,11 @@ export default function Counter() {
                 <FontAwesomeIcon icon={faCode} className="text-emerald-400"/> Personal Firewall
                 </li>
             </ul>
+            <h2 className=' font-high text-purple-400 flex-auto px-5'>My thoughts about Programming :</h2>
+            <p className="font-par text-white flex-auto px-5">Programming is the future and there is no denying it. Firstly, programming is not what you learn in schools. In school you learn
+            to memorise syntax to answer the questions and get marks. The true fun of programming can never be taught by learning if and else loops.</p>
+
+            
             
             
         </div>
