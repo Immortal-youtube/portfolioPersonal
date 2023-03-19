@@ -33,6 +33,7 @@ export default function MyProject(){
             </Helmet>
             <Navbar />
             <h2 className="font-suk text-purple-300 text-6xl text-center">Work In Progress</h2>
+            
         </div>
     );
 }
