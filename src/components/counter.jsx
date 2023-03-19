@@ -71,12 +71,14 @@ export default function Counter() {
     return (
         
         <div className={str} ref={inputRef}>
-        
+            <div class="h-screen scrollbar scrollbar-thumb-custom scrollbar-track-custom-light overflow-y-scroll">
+                
+            
             <Helmet>
                 <title>Immortal</title>
             </Helmet>
             <Navbar />
-            
+
             <h1 className='font-suk text-purple-300 text-6xl text-center'>Hey there, I'm Ansh !</h1>
             <p className= 'font-par text-center text-white py-5 pb-14 px-5'>I am a <p className='inline font-high text-purple-400'>full stack developer</p>.I have made many minecraft plugins, Discord Bots, Arduino Projects, Websites, etc.
                 <br/>My main languages are Python, Java and I have worked with MongoDB,SQL,etc. If you would like to collaborate with me on any project,
@@ -107,13 +109,8 @@ export default function Counter() {
             <p className="font-par text-white pb-14 px-5">Indeed, programming is the industry of the future. First off, programming is not something that is taught in schools. You learn to memorise syntax in school in order to correctly answer questions and gain points. Learning if and else loops will never be able to teach programming's actual enjoyment. Although the initial stages of the Process will be tedious, they will be worthwhile. Just one piece of information can enable you to achieve so much more.
             </p>
             <h2>‎‎‎‎‎‎</h2>
-
-
-
-
-
-        </div>
-        
+            </div>
+        </div> 
     ); 
 }
  
