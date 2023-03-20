@@ -110,8 +110,8 @@ export default function Counter() {
             <p className="font-par text-white pb-14 px-5">Indeed, programming is the industry of the future. First off, programming is not something that is taught in schools. You learn to memorise syntax in school in order to correctly answer questions and gain points. Learning if and else loops will never be able to teach programming's actual enjoyment. Although the initial stages of the Process will be tedious, they will be worthwhile. Just one piece of information can enable you to achieve so much more.
             </p>
             {/* <h2>‎‎‎‎‎‎</h2> */}
-            <h2 className="font-high text-purple-400 px-5 pb-10">Causal Flexing :</h2>
-            <div className="overflow-x-scroll scrollbar scrollbar-thumb-cyan-800 scrollbar-track-sky-500 flex">
+            <h2 className="font-high text-purple-400 px-5 pb-10">Casual Flexing :</h2>
+            <div className="overflow-x-scroll scrollbar scrollbar-thumb-cyan-800 scrollbar-track-sky-500 flex mx-5">
             <img src={css1} alt="discord" />
             <img  src={css2} alt="discord"/>
             <img  src={css3} alt="discord"/>
