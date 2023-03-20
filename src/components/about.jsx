@@ -46,7 +46,7 @@ export default function About(){
     return (
         
         <div className={str} ref = {inputRef}>
-            <div class="h-screen scrollbar scrollbar-thumb-custom scrollbar-track-custom-light overflow-y-scroll">
+            <div class="h-screen scrollbar-thin scrollbar-thumb-custom scrollbar-track-custom-light overflow-y-scroll">
                 <Helmet>
                     <title className="">About me!</title>
                 </Helmet>

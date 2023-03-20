@@ -72,7 +72,7 @@ export default function Counter() {
     return (
         
         <div className={str} ref={inputRef}>
-            <div class="h-screen scrollbar scrollbar-thumb-custom scrollbar-track-custom-light overflow-y-scroll">
+            <div class="h-screen scrollbar-thin scrollbar-thumb-custom scrollbar-track-custom-light overflow-y-scroll">
                 
             
             <Helmet>
@@ -111,8 +111,8 @@ export default function Counter() {
             </p>
             {/* <h2>‎‎‎‎‎‎</h2> */}
             <h2 className="font-high text-purple-400 px-5 pb-10">Casual Flexing :</h2>
-            <div className="overflow-x-scroll scrollbar scrollbar-thumb-cyan-800 scrollbar-track-sky-500 flex mx-5">
-            <img src={css1} alt="discord" />
+            <div className="overflow-x-scroll scrollbar-thin scrollbar-thumb-cyan-800 scrollbar-track-sky-500 flex mx-5 mr-10">
+            <img src={css1} alt="discord"/>
             <img  src={css2} alt="discord"/>
             <img  src={css3} alt="discord"/>
             <img  src={css4} alt="discord"/>
