@@ -55,7 +55,7 @@ export default function Blogs(){
                     <h2 className="font-high text-purple-300 px-5 pt-3">Perfection in the Tech Industry</h2>
                     <h2 className="font-high text-right text-white pt-3 px-5">21/06/2023</h2>
                     <p className="font-par text-white px-5 py-5">In the text industry, perfection is essential.The number of people who are familiar 
-                    with Steve Jobs is one example. There is a risk that if you ask the same folks who Andy Rubin is, they won't know. As a community of 
+                    with Steve Jobs is one example. There is a chance that if you ask the same folks who Andy Rubin is, they won't know. As a community of 
                     people who use and appreciate technology, we all tend to be so preoccupied with the greatest that we never consider the runners up. 
                     Human nature is what it is, and it cannot be changed. Because all you want is the newest iPhone, why should you be concerned about 
                     Andy Rubin, the man who built Android. Because Apple produces some of the best goods, we all covet Apple stuff. Although they are 
