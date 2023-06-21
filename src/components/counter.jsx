@@ -111,7 +111,7 @@ export default function Counter() {
             </p>
             {/* <h2>‎‎‎‎‎‎</h2> */}
             <h2 className="font-high text-purple-400 px-5 pb-10">Casual Flexing :</h2>
-            <div className="overflow-x-scroll scrollbar-thin scrollbar-thumb-cyan-800 scrollbar-track-sky-500 flex mx-5 mr-10">
+            <div className="overflow-x-scroll scrollbar-thin scrollbar-thumb-cyan-800 scrollbar-track-transparent flex mx-5 mr-10">
             <img src={css1} alt="discord"/>
             <img  src={css2} alt="discord"/>
             <img  src={css3} alt="discord"/>

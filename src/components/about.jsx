@@ -58,7 +58,7 @@ export default function About(){
                     <div className="duration-300 pb-10">
                         <h2 className = "text-purple-400 border-l-4 border-dashed border-purple-500 px-5 py-2 font-bold font-high">My Experience :</h2>
                         
-                        <p className = "px-5 pt-3 pb-12 font-par text-white">I learned how to programme on my own. The Internet has taught me a lot. To reach my ability level, I have accumulated knowledge from every possible source. I have assisted numerous individuals and advised numerous more. The programming taught in school never intrested me. I didn't realise how interesting this genre is until I started exploring it on my own. Now, I look for solutions to challenges in real life using my abilities and knowledge.</p>
+                        <p className = "px-5 pt-3 pb-12 font-par text-white">I learned how to programme on my own. The Internet has taught me a lot. To reach my ability level, I have accumulated knowledge from every possible source. I have assisted numerous individuals and advised numerous more. The programming taught in school never interested me. I didn't realise how interesting this genre is until I started exploring it on my own. Now, I look for solutions to challenges in real life using my abilities and knowledge.</p>
                     </div>
                     <div className="duration-300">
                         <h2 className = "text-purple-400 px-5 py-2 border-l-4 border-dashed border-purple-500 font-bold font-high">My Intrests and Hobbies :</h2>
