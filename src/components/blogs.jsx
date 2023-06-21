@@ -2,8 +2,7 @@ import { useEffect, useState } from "react";
 import { useRef } from "react";
 import Navbar from './navbar';
 import { Helmet } from 'react-helmet';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faCode } from "@fortawesome/free-solid-svg-icons";
+
 
 
 export default function Blogs(){

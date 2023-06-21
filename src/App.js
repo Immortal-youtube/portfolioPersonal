@@ -7,7 +7,7 @@ import MyProject from './components/myprojects';
 import Blogs from './components/blogs';
 
 import "./components/icons/font"
-import blogs from './components/blogs';
+
 
 function App() {
   return (
