@@ -8,21 +8,21 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 // const discord = require('./icons/discord.png')
 // const youtube = require('./icons/youtube.png')
 // const github = require('./icons/github.png')
-const css1 = require('./icons/csspics/css1.png')
-const css2 = require('./icons/csspics/css2.png')
-const css3 = require('./icons/csspics/css3.png')
-const css4 = require('./icons/csspics/css4.png')
-const css5 = require('./icons/csspics/css5.png')
-const css6 = require('./icons/csspics/css6.png')
-const css7 = require('./icons/csspics/css7.png')
-const css8 = require('./icons/csspics/css8.png')
-const css9 = require('./icons/csspics/css9.png')
-const css10 = require('./icons/csspics/css10.png')
-const css11 = require('./icons/csspics/css11.png')
-const css12 = require('./icons/csspics/css12.png')
-const css13 = require('./icons/csspics/css13.png')
-const css14 = require('./icons/csspics/css14.png')
-const css15 = require('./icons/csspics/css15.png')
+// const css1 = require('./icons/csspics/css1.png')
+// const css2 = require('./icons/csspics/css2.png')
+// const css3 = require('./icons/csspics/css3.png')
+// const css4 = require('./icons/csspics/css4.png')
+// const css5 = require('./icons/csspics/css5.png')
+// const css6 = require('./icons/csspics/css6.png')
+// const css7 = require('./icons/csspics/css7.png')
+// const css8 = require('./icons/csspics/css8.png')
+// const css9 = require('./icons/csspics/css9.png')
+// const css10 = require('./icons/csspics/css10.png')
+// const css11 = require('./icons/csspics/css11.png')
+// const css12 = require('./icons/csspics/css12.png')
+// const css13 = require('./icons/csspics/css13.png')
+// const css14 = require('./icons/csspics/css14.png')
+// const css15 = require('./icons/csspics/css15.png')
 
 
 
@@ -110,8 +110,8 @@ export default function Counter() {
             <p className="font-par text-white pb-14 px-5">Indeed, programming is the industry of the future. First off, programming is not something that is taught in schools. You learn to memorise syntax in school in order to correctly answer questions and gain points. Learning if and else loops will never be able to teach programming's actual enjoyment. Although the initial stages of the Process will be tedious, they will be worthwhile. Just one piece of information can enable you to achieve so much more.
             </p>
             {/* <h2>‎‎‎‎‎‎</h2> */}
-            <h2 className="font-high text-purple-400 px-5 pb-10">Casual Flexing :</h2>
-            <div className="overflow-x-scroll scrollbar-thin scrollbar-thumb-cyan-800 scrollbar-track-transparent flex mx-5 mr-10">
+            {/* <h2 className="font-high text-purple-400 px-5 pb-10">Casual Flexing :</h2> */}
+            {/* <div className="overflow-x-scroll scrollbar-thin scrollbar-thumb-cyan-800 scrollbar-track-transparent flex mx-5 mr-10">
             <img src={css1} alt="discord"/>
             <img  src={css2} alt="discord"/>
             <img  src={css3} alt="discord"/>
@@ -127,8 +127,8 @@ export default function Counter() {
             <img  src={css13} alt="discord"/>
             <img  src={css14} alt="discord"/>
             <img  src={css15} alt="discord"/>
-            </div>
-            <h2 className="font-high text-purple-400 px-5 py-10">Cool Things coming Soon</h2>
+            </div> */}
+            {/* <h2 className="font-high text-purple-400 px-5 py-10">Cool Things coming Soon</h2> */}
             </div>
         </div> 
     ); 
