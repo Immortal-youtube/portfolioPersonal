@@ -55,11 +55,11 @@ export default function Blogs(){
                 <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Are we the problem ?</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">27/06/2023</h2>
-                        <p className="font-par text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability to solve problems using our intellect and skills. Although now days, we are prone to creating our own problems rather than solving the
-                        already exsisting problems rather than solving the already exsisting problems. These problems have now gone overlooked for so long 
-                        that it imapcts our own developement. An example could be Microsoft Tay, this would have been a big step in the Tech Industry if not 
+                        <p className="font-par text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability to solve problems using our intellect and skills. Although nowdays, we are prone to creating our own problems rather than solving the
+                        already exsiting problems rather than solving the already exsiting problems. These problems have now gone overlooked for so long 
+                        that it imapacts our own developement. An example could be Microsoft Tay, this would have been a big step in the Tech Industry if not 
                         for the human behaviour coming in the way. Another example could be the hiring AI created by amazon, revealing the gender bias among us humans.
-                        From being the problem solvers to becoming problem creators, this is not the kind of developement which we as a community aim for. This raises the question of wether or not instead of searching
+                        From being the problem solvers to becoming problem creators, this is not the kind of developement which we as a community aim for. This raises the question of whether or not instead of searching
                         for problems to solve, we ourselves have become the problem. </p>
                 </div>
 
