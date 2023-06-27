@@ -59,7 +59,7 @@ export default function Blogs(){
                         already exsisting problems rather than solving the already exsisting problems. These problems have now gone overlooked for so long 
                         that it imapcts our own developement. An example could be Microsoft Tay, this would have been a big step in the Tech Industry if not 
                         for the human behaviour coming in the way. Another example could be the hiring AI created by amazon, revealing the gender bias among us humans.
-                        From being the problem solvers to becoming problem creators, this is not the kind of developemnt which we as a community aim for. This raises the question of wether or not instead of searching
+                        From being the problem solvers to becoming problem creators, this is not the kind of developement which we as a community aim for. This raises the question of wether or not instead of searching
                         for problems to solve, we ourselves have become the problem. </p>
                 </div>
 
