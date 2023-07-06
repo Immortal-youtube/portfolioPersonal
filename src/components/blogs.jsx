@@ -53,14 +53,28 @@ export default function Blogs(){
                 <h2 className="font-suk text-purple-300 text-6xl text-center pb-14">Blogs</h2>
 
                 <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                        <h2 className="font-high text-purple-300 px-5 pt-3">Statistics in Sports</h2>
+                        <h2 className="font-high text-right text-white pt-3 px-5">07/07/2023</h2>
+                        <p className="font-par text-white px-5 py-5">We all enjoy playing sports. A game of football or basketball does a lot for the 
+                        human body. But what if we are going competitive in a sport? If we are planning to represent our nations or just in general trying 
+                        to improve our game, then the habit of practicing all day and night eventually becomes ineffective. As a habit, we turn to technology 
+                        to find our solution and this is how statistics was introduced into sports. Nowadays we can find all kinds of data on every player. 
+                        This not only helps the player identify what they need to work on but also increases their worth as various clubs and teams sign these 
+                        players based on their stats. As an individual we can use sensors that collect the data and run algorithms on the data so that we know 
+                        what areas you are lacking in and how we should work on them to take our game to the next level. This now helps us focus on what matters 
+                        and not on what doesn't</p>
+                </div>
+
+                <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Are we the problem ?</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">27/06/2023</h2>
-                        <p className="font-par text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability to solve problems using our intellect and skills. Although nowdays, we are prone to creating our own problems rather than solving the
-                        already existing problems rather than solving the already existing problems. These problems have now gone overlooked for so long 
-                        that it imapacts our own developement. An example could be Microsoft Tay, this would have been a big step in the Tech Industry if not 
-                        for the human behaviour coming in the way. Another example could be the hiring AI created by amazon, revealing the gender bias among us humans.
-                        From being the problem solvers to becoming problem creators, this is not the kind of developement which we as a community aim for. This raises the question of whether or not instead of searching
-                        for problems to solve, we ourselves have become the problem. </p>
+                        <p className="font-par text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability 
+                        to solve problems using our intellect and skills. Although nowadays, we are prone to creating our problems rather than solving the 
+                        already existing problems rather than solving the already existing problems. These problems have gone overlooked for so long that it impacts our
+                         development. An example could be Microsoft Tay, this would have been a big step in the Tech Industry if not for the human behavior coming in the way. 
+                         Another example could be the hiring AI created by Amazon, revealing the gender bias among us humans. From being problem solvers to becoming problem 
+                         creators, this is not the kind of development we aim for as a community. This raises the question of whether or not instead of searching for problems 
+                         to solve, we have become the problem. </p>
                 </div>
 
                 <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
