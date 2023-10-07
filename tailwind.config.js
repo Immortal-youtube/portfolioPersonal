@@ -17,6 +17,10 @@ module.exports = {
     hover: {
       improved: 'hover:shadow hover:animate-bounce'
     },
+    text :{
+      animation : 'opacity:0 ; animation : fade in 2s ease-in-out forwards'
+    }
+    ,
     fontFamily: {
       suk : ['Tourney', 'sans-serif'],
       par : ['Roboto', 'sans-serif'],

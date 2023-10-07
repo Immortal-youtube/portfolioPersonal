@@ -5,6 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { Helmet } from "react-helmet";
 
+
 export default function About(){
     let str = ""
     const inputRef = useRef(0);
@@ -95,7 +96,9 @@ export default function About(){
                     <li className="border-l-4 ml-2 border-dashed border-blue-600 py-2">‎‎‎‎‎‎</li>
                     <li className="py-2"> <FontAwesomeIcon icon={faCode} className="text-emerald-300"/> I am now currently learning golang and improving my skills in other languages as well</li>
                 </ul>
+                
             </div>
+            
         </div>
             
         

@@ -82,7 +82,7 @@ export default function Blogs(){
                         <h2 className="font-high text-right text-white pt-3 px-5">23/06/2023</h2>
                         <p className="font-par text-white px-5 py-5">We all don't need to be reminded that technology advances quickly, just a blink and a new kind of chipset or processor might come out. One example could be how before you would have a 24-pin connector for your motherboard. Well, now that is replaced by 2 x 6-pin connectors. These rapid changes can also be seen in prices. We all remember the good old days when buying a graphic card did not make an irreparable hole in your wallet. Before, the rule was that the more money you are willing to spend, the more performance you get. Well, we now see that rule being broken as you no longer get the same kind of increment in performance no matter how much money you are willing to throw in. </p>
                 </div>
-                <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5 rounded-xl">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Perfection in the Tech Industry</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">21/06/2023</h2>
                         <p className="font-par text-white px-5 py-5">In the tech industry, perfection is essential.The number of people who are familiar 
@@ -92,9 +92,7 @@ export default function Blogs(){
                         Andy Rubin, the man who built Android. Because Apple produces some of the best goods, we all covet Apple stuff. Although they are 
                         pricey, the idea that Apple is the finest has already been ingrained in our minds.The key takeaway is that only the person who placed first is ever remembered. </p>
                 </div>
-            
-                
-                
+        
             </div>
         </div>
     );
