@@ -34,10 +34,10 @@ export default function Counter() {
         
     if (x_html < x_screen){
         console.log("shit")
-        str="bg-noob w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed "
+        str="bg-[#050E1F] w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed "
     }else{
         console.log("wtf")
-        str="bg-noob w-full h-full selection:bg-slate-700 bg-cover bg-fixed "
+        str="bg-[#050E1F] w-full h-full selection:bg-slate-700 bg-cover bg-fixed "
     }
 
     

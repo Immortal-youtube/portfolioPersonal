@@ -38,9 +38,9 @@ export default function Blogs(){
     //     str="bg-noob w-full h-full bg-cover"
     // }
     if (x_html < x_screen){
-        str="bg-noob  w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed"
+        str="bg-[#050E1F]  w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed"
     }else{
-        str="bg-noob w-full h-full selection:bg-slate-700 bg-cover bg-fixed"
+        str="bg-[#050E1F] w-full h-full selection:bg-slate-700 bg-cover bg-fixed"
     }
 
     return(
@@ -52,7 +52,7 @@ export default function Blogs(){
             </Helmet>
                 <h2 className="font-suk text-purple-300 text-6xl text-center pb-14">Blogs</h2>
 
-                <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Statistics in Sports</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">07/07/2023</h2>
                         <p className="font-par text-white px-5 py-5">We all enjoy playing sports. A game of football or basketball does a lot for the 
@@ -65,7 +65,7 @@ export default function Blogs(){
                         and not on what doesn't</p>
                 </div>
 
-                <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Are we the problem ?</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">27/06/2023</h2>
                         <p className="font-par text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability 
@@ -77,7 +77,7 @@ export default function Blogs(){
                          to solve, we have become the problem. </p>
                 </div>
 
-                <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Rapid changes</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">23/06/2023</h2>
                         <p className="font-par text-white px-5 py-5">We all don't need to be reminded that technology advances quickly, just a blink and a new kind of chipset or processor might come out. One example could be how before you would have a 24-pin connector for your motherboard. Well, now that is replaced by 2 x 6-pin connectors. These rapid changes can also be seen in prices. We all remember the good old days when buying a graphic card did not make an irreparable hole in your wallet. Before, the rule was that the more money you are willing to spend, the more performance you get. Well, we now see that rule being broken as you no longer get the same kind of increment in performance no matter how much money you are willing to throw in. </p>

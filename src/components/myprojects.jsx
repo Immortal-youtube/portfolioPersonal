@@ -25,10 +25,10 @@ export default function MyProject(){
 
     if (x_html < x_screen){
         console.log("shit")
-        str="bg-noob w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed"
+        str="bg-[#050E1F] w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed"
     }else{
         console.log("wtf")
-        str="bg-noob w-full h-full selection:bg-slate-700 bg-cover bg-fixed"
+        str="bg-[#050E1F] w-full h-full selection:bg-slate-700 bg-cover bg-fixed"
     }
     return(
         <div className={str} ref={inputRef}>
@@ -39,7 +39,7 @@ export default function MyProject(){
             <Navbar />
             <h2 className=" font-suk text-purple-300 text-6xl text-center pb-14">My Projects</h2>
             <h2 className=" font-high text-purple-300 text-2xl pb-5 px-5 pt-3 ">My Minecraft Projects :</h2>
-                <div className=" border-purple-400 border-4 mx-8 w-auto h-fit bg-black  mb-5">
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black  mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">Custom Enchant :</h2>
                     <p className="font-par text-white px-5 py-5">
                     When I initially started learning how to code Minecraft plugins, I created this one. The formula for a unique enchantment 
@@ -50,7 +50,7 @@ export default function MyProject(){
                         <a href="https://www.spigotmc.org/resources/customenchants.93535/" rel="noreferrer" target="_blank" className="text-purple-400">Download Link</a>
                     </p>
                 </div>
-                <div className=" border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">OpRandomizer :</h2>
                     <p className="font-par text-white px-5 py-5">
                     I've wanted to create this plugin for a very long time, and I finally did. With the help of this order, you can obtain any kind of wealth you choose. Although it may seem intriguing at first, never judge a book by its cover. Do you want to use my plugin to attempt to win the game?
@@ -63,7 +63,7 @@ export default function MyProject(){
                         <a href="https://www.spigotmc.org/resources/oprandomizer.93462/" rel="noreferrer" target="_blank" className="text-purple-400">Download Link</a>
                     </p>
                 </div>
-                <div className=" border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">Private Vault :</h2>
                     <p className="font-par text-white px-5 py-5">
                     The bullying I experienced from my friends while playing SMPs with them served as the inspiration for this plugin. They continued stealing my belongings, so I used my expertise to create a plugin that stores everything in a secure vault.
@@ -75,7 +75,7 @@ export default function MyProject(){
                     </p>
                 </div>
             <h2 className=" font-high text-purple-300 text-2xl pb-5 px-5 pt-3">My Python Projects :</h2>
-                <div className=" border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">Phone number Database :</h2>
                     <p className="font-par text-white px-5 py-5">
                     This programme was made by me so that I could store my contacts in a MySQL database and retrieve them at any time.
@@ -87,7 +87,7 @@ export default function MyProject(){
                         <a href="https://github.com/Immortal-youtube/phone-number-database" rel="noreferrer" target="_blank" className="text-purple-400">See the code</a>
                     </p>
                 </div>
-                <div className="  border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className=" rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">Password Encrypter :</h2>
                     <p className="font-par text-white px-5 py-5">
                     I developed this programme since I frequently forget my passwords and did not have faith in browsers to protect them.
@@ -97,7 +97,7 @@ I thus developed this programme to ensure that my passwords are totally secure. 
                         <a href="https://github.com/Immortal-youtube/Password-Encrypter" rel="noreferrer" target="_blank" className="text-purple-400">See the code</a>
                     </p>
                 </div>
-                <div className=" order-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">Voice Assistant :</h2>
                     <p className="font-par text-white px-5 py-5">
                     Cortana is occasionally helpful but not particularly personalised. Hence, I entirely customised one for myself using commands that I usually use.
@@ -108,7 +108,7 @@ I've developed the programme such that it opens the various IDEs and websites I 
                     </p>
                 </div>
             <h2 className=" font-high text-purple-300 text-2xl pb-5 px-5 pt-3">My Java Projects :</h2>
-                <div className=" border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">Nexus :</h2>
                     <p className="font-par text-white px-5 py-5">
                     This is a Discord bot I had created for my previous server. I wont go too much in detail cause If I did this webpage would look boring.
@@ -117,7 +117,7 @@ I've developed the programme such that it opens the various IDEs and websites I 
                         <a href="https://github.com/Immortal-youtube/Nexus" rel="noreferrer" target="_blank" className="text-purple-400">See the code</a>
                     </p>
                 </div>
-                <div className=" border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">NexusV2 :</h2>
                     <p className="font-par text-white px-5 py-5">
                     This is Nexus, but a lot of changes have been made to its basic structure to make it much simpler for me to add commands and listeners.
@@ -129,7 +129,7 @@ Currently, the bot is not functioning due to some technical issues.
                     </p>
                 </div>
             <h2 className=" font-high text-purple-300 text-2xl pb-5 px-5 pt-3">My JavaScript Projects :</h2>
-                <div className=" border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                     <h2 className="font-high text-purple-300 px-5 pt-3">Literally the Code for this website :</h2>
                     <p className="font-par text-white px-5 py-5">
                     This is the website's source code. ReactJS was used to develop this website. The ReactJS framework is fantastic. Although there is a small learning curve, once you master it, you won't regret it. 

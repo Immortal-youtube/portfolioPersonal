@@ -39,9 +39,9 @@ export default function About(){
     //     str="bg-noob w-full h-full bg-cover"
     // }
     if (x_html < x_screen){
-        str="bg-noob  w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed"
+        str="bg-[#050E1F]  w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed"
     }else{
-        str="bg-noob w-full h-full selection:bg-slate-700 bg-cover bg-fixed"
+        str="bg-[#050E1F] w-full h-full selection:bg-slate-700 bg-cover bg-fixed"
     }
     
     return (
