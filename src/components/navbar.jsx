@@ -22,10 +22,11 @@ async function makeInvisible(){
 }
 
 async function dropdown(){
+  var nav = document.querySelector("#nav")
   if(clicked === false){
     makeVisible()
     // setnavtext("inline-grid space-x-5")
-    var nav = document.querySelector("#nav")
+    
     nav.style.display = "inline-grid"
     
     
@@ -35,7 +36,7 @@ async function dropdown(){
   else{
     makeInvisible()
     // setnavtext("flex space-x-5")
-    var nav = document.querySelector("#nav")
+    
     nav.style.display = "flex"
     
     
