@@ -3,7 +3,23 @@ import { useRef } from "react";
 import Navbar from './navbar';
 import { Helmet } from 'react-helmet';
 
-
+var min = true;
+function minmax(button){
+    var element = document.getElementById(button)
+    if(min === true){
+        
+        element.classList.remove("max-h-0")
+        element.classList.remove("invisible")
+        
+        min = false
+    }else{
+        element.classList.add("max-h-0")
+        element.classList.add("invisible")
+        
+        min = true
+    }
+    console.log(element)
+}
 
 export default function Blogs(){
     let str = ""
@@ -16,9 +32,20 @@ export default function Blogs(){
         setX_screen(window.screen.availHeight)
         
     }, [])
-
     
-
+    
+        // if(min === true){
+        //     element.classList.add("max")
+        //     element.classList.remove("min")
+        //     min = false
+        // }else{
+            
+        //     element.classList.add("min")
+        //     element.classList.remove("max")
+        //     min = true
+        // }
+        
+    
     // const height = _ => {
     //     console.log(inputRef.current.getBoundingClientRect().height);
     // };
@@ -43,6 +70,8 @@ export default function Blogs(){
         str="bg-[#050E1F] w-full h-full selection:bg-slate-700 bg-cover bg-fixed"
     }
 
+    
+
     return(
         <div className={str} ref={inputRef}>
             <div class="h-screen scrollbar-thin scrollbar-thumb-custom scrollbar-track-custom-light overflow-y-scroll">
@@ -52,10 +81,12 @@ export default function Blogs(){
             </Helmet>
                 <h2 className="font-suk text-purple-300 text-6xl text-center pb-14">Blogs</h2>
 
-                <div className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <button onClick = {() => {
+                    minmax("4")
+                }} className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Statistics in Sports</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">07/07/2023</h2>
-                        <p className="font-par text-white px-5 py-5">We all enjoy playing sports. A game of football or basketball does a lot for the 
+                        <p id = "4" className="font-par invisible max-h-0 text-white px-5 py-5">We all enjoy playing sports. A game of football or basketball does a lot for the 
                         human body. But what if we are going competitive in a sport? If we are planning to represent our nations or just in general trying 
                         to improve our game, then the habit of practicing all day and night eventually becomes ineffective. As a habit, we turn to technology 
                         to find our solution and this is how statistics was introduced into sports. Nowadays we can find all kinds of data on every player. 
@@ -63,35 +94,41 @@ export default function Blogs(){
                         players based on their stats. As an individual we can use sensors that collect the data and run algorithms on the data so that we know 
                         what areas you are lacking in and how we should work on them to take our game to the next level. This now helps us focus on what matters 
                         and not on what doesn't</p>
-                </div>
+                </button>
 
-                <div className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <button onClick = {() => {
+                    minmax("3")
+                }} className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Are we the problem ?</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">27/06/2023</h2>
-                        <p className="font-par text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability 
+                        <p id="3" className="font-par invisible max-h-0 text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability 
                         to solve problems using our intellect and skills. Although nowadays, we are prone to creating our problems rather than solving the 
                         already existing problems rather than solving the already existing problems. These problems have gone overlooked for so long that it impacts our
                          development. An example could be Microsoft Tay, this would have been a big step in the Tech Industry if not for the human behavior coming in the way. 
                          Another example could be the hiring AI created by Amazon, revealing the gender bias among us humans. From being problem solvers to becoming problem 
                          creators, this is not the kind of development we aim for as a community. This raises the question of whether or not instead of searching for problems 
                          to solve, we have become the problem. </p>
-                </div>
+                </button>
 
-                <div className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                <button onClick = {() => {
+                    minmax("2")
+                }} className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Rapid changes</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">23/06/2023</h2>
-                        <p className="font-par text-white px-5 py-5">We all don't need to be reminded that technology advances quickly, just a blink and a new kind of chipset or processor might come out. One example could be how before you would have a 24-pin connector for your motherboard. Well, now that is replaced by 2 x 6-pin connectors. These rapid changes can also be seen in prices. We all remember the good old days when buying a graphic card did not make an irreparable hole in your wallet. Before, the rule was that the more money you are willing to spend, the more performance you get. Well, we now see that rule being broken as you no longer get the same kind of increment in performance no matter how much money you are willing to throw in. </p>
-                </div>
-                <div className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5 rounded-xl">
+                        <p id = "2" className="font-par invisible max-h-0  text-white px-5 py-5">We all don't need to be reminded that technology advances quickly, just a blink and a new kind of chipset or processor might come out. One example could be how before you would have a 24-pin connector for your motherboard. Well, now that is replaced by 2 x 6-pin connectors. These rapid changes can also be seen in prices. We all remember the good old days when buying a graphic card did not make an irreparable hole in your wallet. Before, the rule was that the more money you are willing to spend, the more performance you get. Well, we now see that rule being broken as you no longer get the same kind of increment in performance no matter how much money you are willing to throw in. </p>
+                </button>
+                <button onClick = {() => {
+                    minmax("1")
+                }} className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5 rounded-xl">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Perfection in the Tech Industry</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">21/06/2023</h2>
-                        <p className="font-par text-white px-5 py-5">In the tech industry, perfection is essential.The number of people who are familiar 
+                        <p id = "1" className="font-par invisible max-h-0 text-white px-5 py-5">In the tech industry, perfection is essential.The number of people who are familiar 
                         with Steve Jobs is one example. There is a chance that if you ask the same folks who Andy Rubin is, they won't know. As a community of 
                         people who use and appreciate technology, we all tend to be so preoccupied with the greatest that we never consider the runners up. 
                         Human nature is what it is, and it cannot be changed. Because all you want is the newest iPhone, why should you be concerned about 
                         Andy Rubin, the man who built Android. Because Apple produces some of the best goods, we all covet Apple stuff. Although they are 
                         pricey, the idea that Apple is the finest has already been ingrained in our minds.The key takeaway is that only the person who placed first is ever remembered. </p>
-                </div>
+                </button>
         
             </div>
         </div>
