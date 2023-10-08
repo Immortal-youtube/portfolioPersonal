@@ -8,12 +8,12 @@ function minmax(button){
     var element = document.getElementById(button)
     if(min === true){
         
-        element.classList.remove("max-h-0")
+        element.classList.remove("collapse-content")
         element.classList.remove("invisible")
         
         min = false
     }else{
-        element.classList.add("max-h-0")
+        element.classList.add("collapse-content")
         element.classList.add("invisible")
         
         min = true
@@ -86,7 +86,7 @@ export default function Blogs(){
                 }} className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Statistics in Sports</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">07/07/2023</h2>
-                        <p id = "4" className="font-par invisible max-h-0 text-white px-5 py-5">We all enjoy playing sports. A game of football or basketball does a lot for the 
+                        <p id = "4" className="font-par collapse-content invisible text-white px-5 py-5">We all enjoy playing sports. A game of football or basketball does a lot for the 
                         human body. But what if we are going competitive in a sport? If we are planning to represent our nations or just in general trying 
                         to improve our game, then the habit of practicing all day and night eventually becomes ineffective. As a habit, we turn to technology 
                         to find our solution and this is how statistics was introduced into sports. Nowadays we can find all kinds of data on every player. 
@@ -101,7 +101,7 @@ export default function Blogs(){
                 }} className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Are we the problem ?</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">27/06/2023</h2>
-                        <p id="3" className="font-par invisible max-h-0 text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability 
+                        <p id="3" className="font-par collapse-content invisible text-white px-5 py-5">We, as humans have been considered superior to other organisms due to our ability 
                         to solve problems using our intellect and skills. Although nowadays, we are prone to creating our problems rather than solving the 
                         already existing problems rather than solving the already existing problems. These problems have gone overlooked for so long that it impacts our
                          development. An example could be Microsoft Tay, this would have been a big step in the Tech Industry if not for the human behavior coming in the way. 
@@ -115,14 +115,14 @@ export default function Blogs(){
                 }} className="border-purple-400 rounded-xl border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Rapid changes</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">23/06/2023</h2>
-                        <p id = "2" className="font-par invisible max-h-0  text-white px-5 py-5">We all don't need to be reminded that technology advances quickly, just a blink and a new kind of chipset or processor might come out. One example could be how before you would have a 24-pin connector for your motherboard. Well, now that is replaced by 2 x 6-pin connectors. These rapid changes can also be seen in prices. We all remember the good old days when buying a graphic card did not make an irreparable hole in your wallet. Before, the rule was that the more money you are willing to spend, the more performance you get. Well, we now see that rule being broken as you no longer get the same kind of increment in performance no matter how much money you are willing to throw in. </p>
+                        <p id = "2" className="font-par collapse-content invisible text-white px-5 py-5">We all don't need to be reminded that technology advances quickly, just a blink and a new kind of chipset or processor might come out. One example could be how before you would have a 24-pin connector for your motherboard. Well, now that is replaced by 2 x 6-pin connectors. These rapid changes can also be seen in prices. We all remember the good old days when buying a graphic card did not make an irreparable hole in your wallet. Before, the rule was that the more money you are willing to spend, the more performance you get. Well, we now see that rule being broken as you no longer get the same kind of increment in performance no matter how much money you are willing to throw in. </p>
                 </button>
                 <button onClick = {() => {
                     minmax("1")
                 }} className="border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5 rounded-xl">
                         <h2 className="font-high text-purple-300 px-5 pt-3">Perfection in the Tech Industry</h2>
                         <h2 className="font-high text-right text-white pt-3 px-5">21/06/2023</h2>
-                        <p id = "1" className="font-par invisible max-h-0 text-white px-5 py-5">In the tech industry, perfection is essential.The number of people who are familiar 
+                        <p id = "1" className="font-par collapse-content invisible text-white px-5 py-5">In the tech industry, perfection is essential.The number of people who are familiar 
                         with Steve Jobs is one example. There is a chance that if you ask the same folks who Andy Rubin is, they won't know. As a community of 
                         people who use and appreciate technology, we all tend to be so preoccupied with the greatest that we never consider the runners up. 
                         Human nature is what it is, and it cannot be changed. Because all you want is the newest iPhone, why should you be concerned about 
