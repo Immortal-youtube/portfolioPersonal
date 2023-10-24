@@ -33,16 +33,16 @@ export default function Counter() {
     // }
         
     if (x_html < x_screen){
-        console.log("shit")
+       
         str="bg-[#050E1F] w-screen h-screen selection:bg-slate-700 bg-cover bg-fixed "
     }else{
-        console.log("wtf")
+      
         str="bg-[#050E1F] w-full h-full selection:bg-slate-700 bg-cover bg-fixed "
     }
 
     
     if(x_html_width < 672){
-        console.log("short")
+        
     }
     console.log(x_html)
     console.log(x_screen)
