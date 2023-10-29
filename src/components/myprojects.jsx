@@ -130,7 +130,7 @@ Currently, the bot is not functioning due to some technical issues.
                 </div>
             <h2 className=" font-high text-purple-300 text-2xl pb-5 px-5 pt-3">My JavaScript Projects :</h2>
                 <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
-                    <h2 className="font-high text-purple-300 px-5 pt-3">Literally the Code for this website :</h2>
+                    <h2 className="font-high text-purple-300 px-5 pt-3">The code for this website :</h2>
                     <p className="font-par text-white px-5 py-5">
                     This is the website's source code. ReactJS was used to develop this website. The ReactJS framework is fantastic. Although there is a small learning curve, once you master it, you won't regret it. 
                     <br/>
@@ -138,7 +138,19 @@ Currently, the bot is not functioning due to some technical issues.
                         <a href="https://github.com/Immortal-youtube/NexusV2" rel="noreferrer" target="_blank" className="text-purple-400">See the code</a>
                     </p>
                 </div>
-                <h2 className="font-high text-purple-300 text-2xl pb-5 px-5 pt-3 ">I wanted to include a lot of projects, however many of them had been removed or had not been stored on github. I've completed a lot more projects than this, but tragically a lot of them were destroyed.</h2>
+            <h2 className=" font-high text-purple-300 text-2xl pb-5 px-5 pt-3">My Hardware Projects :</h2>
+                <div className="rounded-xl border-purple-400 border-4 mx-8 w-auto h-fit bg-black duration-300 mb-5">
+                    <h2 className="font-high text-purple-300 px-5 pt-3">A Custom NAS server</h2>
+                    <p className="font-par text-white px-5 py-5">
+                        After seeing the exaggerated prices of a small scale NAS I was determined to make a cheaper option. I succeeded when I created a NAS with relatively the same specs for almost Rs.55,000 cheaper for personal use.
+                        You can find the parts list linked below
+
+                    <br/>
+                    
+                        <a href="src\components\files\Homemade NAS.docx" rel="noreferrer" download className="text-purple-400">See the code</a>
+                    </p>
+                </div>
+                {/* <h2 className="font-high text-purple-300 text-2xl pb-5 px-5 pt-3 ">I wanted to include a lot of projects, however many of them had been removed or had not been stored on github. I've completed a lot more projects than this, but tragically a lot of them were destroyed.</h2> */}
             </div>
         </div>
         
